@@ -1,0 +1,4177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    149.11666667,
+    -35.26666667,
+    149.11666667,
+    -35.26666667
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4283"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-07-01T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a0d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-07-08T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a0e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-07-15T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a0f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-07-22T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a10"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-07-29T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a11"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-08-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a12"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-08-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a13"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2016-08-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a14"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 220,
+        "num_days_data_collected": 2,
+        "start_date": "2016-08-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a15"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 494,
+        "num_days_data_collected": 7,
+        "start_date": "2016-09-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a16"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 40,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1134,
+        "num_days_data_collected": 7,
+        "start_date": "2016-09-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a17"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 12,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 795,
+        "num_days_data_collected": 7,
+        "start_date": "2016-09-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a18"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 920,
+        "num_days_data_collected": 7,
+        "start_date": "2016-09-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a19"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 61,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 295,
+        "num_days_data_collected": 7,
+        "start_date": "2016-09-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 31,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 632,
+        "num_days_data_collected": 7,
+        "start_date": "2016-10-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 88,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 365,
+        "num_days_data_collected": 7,
+        "start_date": "2016-10-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 103,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 174,
+        "num_days_data_collected": 7,
+        "start_date": "2016-10-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 134,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 173,
+        "num_days_data_collected": 7,
+        "start_date": "2016-10-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 165,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 140,
+        "num_days_data_collected": 7,
+        "start_date": "2016-11-04T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a1f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 138,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 158,
+        "num_days_data_collected": 7,
+        "start_date": "2016-11-11T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a20"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 146,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 99,
+        "num_days_data_collected": 7,
+        "start_date": "2016-11-18T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a21"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 177,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 77,
+        "num_days_data_collected": 7,
+        "start_date": "2016-11-25T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a22"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 113,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 32,
+        "num_days_data_collected": 7,
+        "start_date": "2016-12-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a23"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 146,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 35,
+        "num_days_data_collected": 7,
+        "start_date": "2016-12-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a24"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 81,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 18,
+        "num_days_data_collected": 7,
+        "start_date": "2016-12-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a25"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_data_collected": 7,
+        "start_date": "2016-12-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a26"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_data_collected": 7,
+        "start_date": "2016-12-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a27"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 14,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 17,
+        "num_days_data_collected": 7,
+        "start_date": "2017-01-06T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a28"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 4,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 9,
+        "num_days_data_collected": 7,
+        "start_date": "2017-01-13T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a29"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 14,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 27,
+        "num_days_data_collected": 7,
+        "start_date": "2017-01-20T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_data_collected": 7,
+        "start_date": "2017-01-27T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 6,
+        "num_days_data_collected": 7,
+        "start_date": "2017-02-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 12,
+        "num_days_data_collected": 7,
+        "start_date": "2017-02-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 12,
+        "num_days_data_collected": 7,
+        "start_date": "2017-02-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 52,
+        "num_days_data_collected": 4,
+        "start_date": "2017-02-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a2f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-03-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a30"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-03-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a31"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-03-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a32"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-03-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a33"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-03-31T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a34"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-04-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a35"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-04-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a36"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-04-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a37"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-04-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a38"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-05-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a39"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-05-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-05-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-05-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-06-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-06-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-06-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a3f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 8,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-06-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a40"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-07-01T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a41"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-07-08T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a42"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-07-15T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a43"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-07-22T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a44"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-07-29T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a45"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-08-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a46"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-08-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a47"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-08-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a48"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-08-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a49"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-09-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-09-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2017-09-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 6,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 158,
+        "num_days_data_collected": 5,
+        "start_date": "2017-09-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 14,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 596,
+        "num_days_data_collected": 7,
+        "start_date": "2017-09-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 19,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 305,
+        "num_days_data_collected": 7,
+        "start_date": "2017-10-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a4f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 26,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 153,
+        "num_days_data_collected": 7,
+        "start_date": "2017-10-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a50"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 36,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 53,
+        "num_days_data_collected": 7,
+        "start_date": "2017-10-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a51"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 86,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 79,
+        "num_days_data_collected": 7,
+        "start_date": "2017-10-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a52"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 30,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_data_collected": 7,
+        "start_date": "2017-11-04T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a53"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 42,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 45,
+        "num_days_data_collected": 7,
+        "start_date": "2017-11-11T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a54"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 59,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 57,
+        "num_days_data_collected": 7,
+        "start_date": "2017-11-18T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a55"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 85,
+        "num_days_data_collected": 7,
+        "start_date": "2017-11-25T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a56"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 27,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 76,
+        "num_days_data_collected": 7,
+        "start_date": "2017-12-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a57"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 63,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 80,
+        "num_days_data_collected": 7,
+        "start_date": "2017-12-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a58"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 22,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 64,
+        "num_days_data_collected": 6,
+        "start_date": "2017-12-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a59"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 4,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 17,
+        "num_days_data_collected": 1,
+        "start_date": "2017-12-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 94,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 169,
+        "num_days_data_collected": 5,
+        "start_date": "2017-12-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 59,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 70,
+        "num_days_data_collected": 7,
+        "start_date": "2018-01-06T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 18,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 52,
+        "num_days_data_collected": 6,
+        "start_date": "2018-01-13T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 11,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_data_collected": 7,
+        "start_date": "2018-01-20T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 32,
+        "num_days_data_collected": 7,
+        "start_date": "2018-01-27T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a5f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 124,
+        "num_days_data_collected": 7,
+        "start_date": "2018-02-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a60"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 563,
+        "num_days_data_collected": 7,
+        "start_date": "2018-02-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a61"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 206,
+        "num_days_data_collected": 7,
+        "start_date": "2018-02-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a62"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 85,
+        "num_days_data_collected": 7,
+        "start_date": "2018-02-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a63"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 504,
+        "num_days_data_collected": 7,
+        "start_date": "2018-03-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a64"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 405,
+        "num_days_data_collected": 7,
+        "start_date": "2018-03-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a65"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 35,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 174,
+        "num_days_data_collected": 7,
+        "start_date": "2018-03-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a66"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 46,
+        "num_days_data_collected": 7,
+        "start_date": "2018-03-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a67"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 66,
+        "num_days_data_collected": 6,
+        "start_date": "2018-03-31T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a68"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 15,
+        "num_days_data_collected": 7,
+        "start_date": "2018-04-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a69"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 14,
+        "num_days_data_collected": 6,
+        "start_date": "2018-04-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 45,
+        "num_days_data_collected": 6,
+        "start_date": "2018-04-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_data_collected": 7,
+        "start_date": "2018-04-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_data_collected": 7,
+        "start_date": "2018-05-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_data_collected": 6,
+        "start_date": "2018-05-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_data_collected": 7,
+        "start_date": "2018-05-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a6f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 32,
+        "num_days_data_collected": 6,
+        "start_date": "2018-05-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a70"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 26,
+        "num_days_data_collected": 7,
+        "start_date": "2018-06-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a71"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 25,
+        "num_days_data_collected": 7,
+        "start_date": "2018-06-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a72"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 25,
+        "num_days_data_collected": 6,
+        "start_date": "2018-06-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a73"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 8,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 21,
+        "num_days_data_collected": 8,
+        "start_date": "2018-06-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a74"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_data_collected": 7,
+        "start_date": "2018-07-01T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a75"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 9,
+        "num_days_data_collected": 7,
+        "start_date": "2018-07-08T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a76"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 22,
+        "num_days_data_collected": 7,
+        "start_date": "2018-07-15T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a77"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 50,
+        "num_days_data_collected": 6,
+        "start_date": "2018-07-22T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a78"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 252,
+        "num_days_data_collected": 7,
+        "start_date": "2018-07-29T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a79"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 269,
+        "num_days_data_collected": 7,
+        "start_date": "2018-08-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 234,
+        "num_days_data_collected": 7,
+        "start_date": "2018-08-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 687,
+        "num_days_data_collected": 7,
+        "start_date": "2018-08-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 906,
+        "num_days_data_collected": 7,
+        "start_date": "2018-08-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 293,
+        "num_days_data_collected": 6,
+        "start_date": "2018-09-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 806,
+        "num_days_data_collected": 7,
+        "start_date": "2018-09-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a7f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 3800,
+        "num_days_data_collected": 7,
+        "start_date": "2018-09-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a80"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 2697,
+        "num_days_data_collected": 7,
+        "start_date": "2018-09-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a81"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 2456,
+        "num_days_data_collected": 7,
+        "start_date": "2018-09-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a82"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1287,
+        "num_days_data_collected": 6,
+        "start_date": "2018-10-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a83"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 761,
+        "num_days_data_collected": 7,
+        "start_date": "2018-10-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a84"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 128,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 219,
+        "num_days_data_collected": 7,
+        "start_date": "2018-10-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a85"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 132,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 36,
+        "num_days_data_collected": 7,
+        "start_date": "2018-10-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a86"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 115,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 23,
+        "num_days_data_collected": 6,
+        "start_date": "2018-11-04T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a87"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 121,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_data_collected": 7,
+        "start_date": "2018-11-11T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a88"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 25,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 14,
+        "num_days_data_collected": 5,
+        "start_date": "2018-11-18T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a89"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 165,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 69,
+        "num_days_data_collected": 6,
+        "start_date": "2018-11-25T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 116,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 51,
+        "num_days_data_collected": 7,
+        "start_date": "2018-12-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 92,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 56,
+        "num_days_data_collected": 7,
+        "start_date": "2018-12-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 25,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 6,
+        "num_days_data_collected": 7,
+        "start_date": "2018-12-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": null,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": null,
+        "num_days_data_collected": 0,
+        "start_date": "2018-12-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 74,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 19,
+        "num_days_data_collected": 4,
+        "start_date": "2018-12-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a8f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 15,
+        "num_days_data_collected": 7,
+        "start_date": "2019-01-06T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a90"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 18,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 22,
+        "num_days_data_collected": 7,
+        "start_date": "2019-01-13T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a91"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 57,
+        "num_days_data_collected": 7,
+        "start_date": "2019-01-20T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a92"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_data_collected": 7,
+        "start_date": "2019-01-27T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a93"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 22,
+        "num_days_data_collected": 7,
+        "start_date": "2019-02-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a94"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 15,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 32,
+        "num_days_data_collected": 7,
+        "start_date": "2019-02-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a95"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 55,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 3220,
+        "num_days_data_collected": 7,
+        "start_date": "2019-02-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a96"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1316,
+        "num_days_data_collected": 7,
+        "start_date": "2019-02-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a97"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 4,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1585,
+        "num_days_data_collected": 7,
+        "start_date": "2019-03-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a98"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 42,
+        "num_days_data_collected": 5,
+        "start_date": "2019-03-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a99"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 96,
+        "num_days_data_collected": 7,
+        "start_date": "2019-03-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9a"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 9,
+        "num_days_data_collected": 7,
+        "start_date": "2019-03-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9b"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 115,
+        "num_days_data_collected": 7,
+        "start_date": "2019-03-31T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9c"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 29,
+        "num_days_data_collected": 7,
+        "start_date": "2019-04-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9d"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 44,
+        "num_days_data_collected": 6,
+        "start_date": "2019-04-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9e"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 45,
+        "num_days_data_collected": 7,
+        "start_date": "2019-04-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6a9f"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 16,
+        "num_days_data_collected": 7,
+        "start_date": "2019-04-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_data_collected": 7,
+        "start_date": "2019-05-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_data_collected": 7,
+        "start_date": "2019-05-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 45,
+        "num_days_data_collected": 7,
+        "start_date": "2019-05-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 48,
+        "num_days_data_collected": 7,
+        "start_date": "2019-05-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 37,
+        "num_days_data_collected": 7,
+        "start_date": "2019-06-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 49,
+        "num_days_data_collected": 7,
+        "start_date": "2019-06-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 20,
+        "num_days_data_collected": 7,
+        "start_date": "2019-06-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 8,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_data_collected": 8,
+        "start_date": "2019-06-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 18,
+        "num_days_data_collected": 7,
+        "start_date": "2019-07-01T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aa9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 16,
+        "num_days_data_collected": 7,
+        "start_date": "2019-07-08T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aaa"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 59,
+        "num_days_data_collected": 7,
+        "start_date": "2019-07-15T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aab"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 210,
+        "num_days_data_collected": 7,
+        "start_date": "2019-07-22T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aac"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 112,
+        "num_days_data_collected": 7,
+        "start_date": "2019-07-29T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aad"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 106,
+        "num_days_data_collected": 7,
+        "start_date": "2019-08-05T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aae"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 486,
+        "num_days_data_collected": 7,
+        "start_date": "2019-08-12T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aaf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 298,
+        "num_days_data_collected": 7,
+        "start_date": "2019-08-19T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 843,
+        "num_days_data_collected": 7,
+        "start_date": "2019-08-26T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1164,
+        "num_days_data_collected": 7,
+        "start_date": "2019-09-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1048,
+        "num_days_data_collected": 7,
+        "start_date": "2019-09-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 8176,
+        "num_days_data_collected": 7,
+        "start_date": "2019-09-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 5161,
+        "num_days_data_collected": 7,
+        "start_date": "2019-09-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 59,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 4587,
+        "num_days_data_collected": 7,
+        "start_date": "2019-09-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 32,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1329,
+        "num_days_data_collected": 7,
+        "start_date": "2019-10-07T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 113,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 745,
+        "num_days_data_collected": 6,
+        "start_date": "2019-10-14T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 187,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 149,
+        "num_days_data_collected": 7,
+        "start_date": "2019-10-21T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ab9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 93,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 43,
+        "num_days_data_collected": 7,
+        "start_date": "2019-10-28T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aba"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 29,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_data_collected": 7,
+        "start_date": "2019-11-04T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6abb"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 40,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 6,
+        "num_days_data_collected": 7,
+        "start_date": "2019-11-11T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6abc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 21,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_data_collected": 7,
+        "start_date": "2019-11-18T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6abd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 114,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 41,
+        "num_days_data_collected": 7,
+        "start_date": "2019-11-25T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6abe"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 143,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 48,
+        "num_days_data_collected": 7,
+        "start_date": "2019-12-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6abf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 34,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 23,
+        "num_days_data_collected": 7,
+        "start_date": "2019-12-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 28,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 27,
+        "num_days_data_collected": 7,
+        "start_date": "2019-12-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_data_collected": 2,
+        "start_date": "2019-12-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_data_collected": 3,
+        "start_date": "2019-12-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_data_collected": 7,
+        "start_date": "2020-01-06T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_data_collected": 7,
+        "start_date": "2020-01-13T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_data_collected": 4,
+        "start_date": "2020-01-20T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_data_collected": 7,
+        "start_date": "2020-01-27T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 4,
+        "num_days_data_collected": 7,
+        "start_date": "2020-02-03T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 176,
+        "num_days_data_collected": 7,
+        "start_date": "2020-02-10T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ac9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 25,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 457,
+        "num_days_data_collected": 7,
+        "start_date": "2020-02-17T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6aca"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 15,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 424,
+        "num_days_data_collected": 7,
+        "start_date": "2020-02-24T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6acb"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 9,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 101,
+        "num_days_data_collected": 7,
+        "start_date": "2020-03-02T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6acc"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 11,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 52,
+        "num_days_data_collected": 7,
+        "start_date": "2020-03-09T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6acd"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 17,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 173,
+        "num_days_data_collected": 7,
+        "start_date": "2020-03-16T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ace"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 9,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 98,
+        "num_days_data_collected": 6,
+        "start_date": "2020-03-23T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6acf"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_data_collected": 7,
+        "start_date": "2020-03-30T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad0"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 26,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 50,
+        "num_days_data_collected": 7,
+        "start_date": "2020-04-06T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 49,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 59,
+        "num_days_data_collected": 7,
+        "start_date": "2020-04-13T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 8,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 22,
+        "num_days_data_collected": 7,
+        "start_date": "2020-04-20T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_data_collected": 7,
+        "start_date": "2020-04-27T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 5,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 26,
+        "num_days_data_collected": 7,
+        "start_date": "2020-05-04T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 7,
+        "num_days_data_collected": 7,
+        "start_date": "2020-05-11T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 2,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 13,
+        "num_days_data_collected": 7,
+        "start_date": "2020-05-18T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 21,
+        "num_days_data_collected": 7,
+        "start_date": "2020-05-25T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 10,
+        "num_days_data_collected": 7,
+        "start_date": "2020-06-01T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ad9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 0,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 6,
+        "num_days_data_collected": 7,
+        "start_date": "2020-06-08T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6ada"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 1,
+        "num_days_in_period": 7,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 21,
+        "num_days_data_collected": 7,
+        "start_date": "2020-06-15T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6adb"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.11666667,
+          -35.26666667
+        ]
+      },
+      "properties": {
+        "poaceae_pollen_concentration_grains_metre_cubed": 4,
+        "num_days_in_period": 9,
+        "longitude": 149.11666667,
+        "latitude": -35.26666667,
+        "other_pollen_concentration_grains_metre_cubed": 3,
+        "num_days_data_collected": 7,
+        "start_date": "2020-06-22T00:00:00.000+0000"
+      },
+      "id": "canberra_act_6168c4209b7c5111055ffa84.fid-4d8cdae8_18f32d93c1d_6adc"
+    }
+  ]
+}
