@@ -4,6 +4,7 @@ from elasticsearch8 import Elasticsearch
 app = Flask(__name__)
 
 
+# this function build connection with db
 def query_es(body, index_name):
     client = Elasticsearch(
         'https://elasticsearch-master.elastic.svc.cluster.local:9200',
@@ -31,7 +32,3 @@ def main():
         return jsonify(results)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
