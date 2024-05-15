@@ -16,6 +16,12 @@ curl -X PUT -k 'https://127.0.0.1:9200/bom' \
        },
        "mappings": {
            "properties": {
+               "header_ID": {
+                   "type": "keyword"
+               },
+               "sort_order": {
+                   "type": "keyword"
+               },
                "wmo": {
                    "type": "integer"
                },
@@ -24,7 +30,7 @@ curl -X PUT -k 'https://127.0.0.1:9200/bom' \
                },
                "local_date_time_full": {
                    "type": "date",
-                   "format": "yyyy-MM-dd-HH-mm-ss"
+                   "format": "yyyyMMddHHmmss"
                },
                "lat": {
                    "type": "float"
@@ -72,3 +78,4 @@ curl -X PUT -k 'https://127.0.0.1:9200/bom' \
        }
    }' \
    --user "$USERNAME:$PASSWORD" | jq '.'
+
