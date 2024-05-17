@@ -7,7 +7,7 @@ app = Flask(__name__)
 # this function build connection with db
 def query_es(body, index_name):
     client = Elasticsearch(
-        'https://elasticsearch-master.elastic.svc.cluster.local:9200',
+        'https://localhost:9200',
         basic_auth=("elastic", "elastic"),
         verify_certs=False,
         ssl_show_warn=False
