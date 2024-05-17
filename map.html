@@ -1,0 +1,2769 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_553015c54d7c961cb50370e895bc7703 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_553015c54d7c961cb50370e895bc7703" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_553015c54d7c961cb50370e895bc7703 = L.map(
+                "map_553015c54d7c961cb50370e895bc7703",
+                {
+                    center: [145.27250364516135, -37.52679067311828],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2d44b93f23903e83c40691cefc96026 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c2d44b93f23903e83c40691cefc96026.addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+            var marker_2babbcd7b3aed700b4d90ebf0a43dd10 = L.marker(
+                [145.1324, -37.8287277],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_feea7d4adca975b17f07cc574a4d7fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d872cbb10d1054070819959f247a923 = $(`<div id="html_5d872cbb10d1054070819959f247a923" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Box Hill<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.39, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.88, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_feea7d4adca975b17f07cc574a4d7fe1.setContent(html_5d872cbb10d1054070819959f247a923);
+            
+        
+
+        marker_2babbcd7b3aed700b4d90ebf0a43dd10.bindPopup(popup_feea7d4adca975b17f07cc574a4d7fe1)
+        ;
+
+        
+    
+    
+            marker_2babbcd7b3aed700b4d90ebf0a43dd10.bindTooltip(
+                `<div>
+                     Box Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27d929b45aa7c1514198b1628801560f = L.marker(
+                [146.414932, -38.3043137],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_d624491218dd18a7300fca85c8a5913b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c6bd866ffc710e1774d8f311c508d63 = $(`<div id="html_3c6bd866ffc710e1774d8f311c508d63" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Churchill<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.78, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.16, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_d624491218dd18a7300fca85c8a5913b.setContent(html_3c6bd866ffc710e1774d8f311c508d63);
+            
+        
+
+        marker_27d929b45aa7c1514198b1628801560f.bindPopup(popup_d624491218dd18a7300fca85c8a5913b)
+        ;
+
+        
+    
+    
+            marker_27d929b45aa7c1514198b1628801560f.bindTooltip(
+                `<div>
+                     Churchill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b6dcd2ea96ead5a6befb171a5d064a7 = L.marker(
+                [146.5392, -38.29585],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_0bceeffb6fc9be79e54607b4dba5c1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fef1e194902ca542fabf58cc9cd4e57d = $(`<div id="html_fef1e194902ca542fabf58cc9cd4e57d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Traralgon South<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_0bceeffb6fc9be79e54607b4dba5c1a5.setContent(html_fef1e194902ca542fabf58cc9cd4e57d);
+            
+        
+
+        marker_9b6dcd2ea96ead5a6befb171a5d064a7.bindPopup(popup_0bceeffb6fc9be79e54607b4dba5c1a5)
+        ;
+
+        
+    
+    
+            marker_9b6dcd2ea96ead5a6befb171a5d064a7.bindTooltip(
+                `<div>
+                     Traralgon South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9deade2252da4ea3a5fa2a8581885f54 = L.marker(
+                [146.4828, -38.12967],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_28968c9ccc4a86dcb8d9a89cd022a615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc9d31dafe01d20ea2672adfcdb35236 = $(`<div id="html_fc9d31dafe01d20ea2672adfcdb35236" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Tyers North<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.28, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_28968c9ccc4a86dcb8d9a89cd022a615.setContent(html_fc9d31dafe01d20ea2672adfcdb35236);
+            
+        
+
+        marker_9deade2252da4ea3a5fa2a8581885f54.bindPopup(popup_28968c9ccc4a86dcb8d9a89cd022a615)
+        ;
+
+        
+    
+    
+            marker_9deade2252da4ea3a5fa2a8581885f54.bindTooltip(
+                `<div>
+                     Tyers North
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a099e59624edd879304517e9d7732ce7 = L.marker(
+                [145.0306, -37.7784081],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_749b6f0a2f33a9696179d7f4581f3179 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7c6fc1849ddd782dc929fffd05dc38f = $(`<div id="html_e7c6fc1849ddd782dc929fffd05dc38f" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Alphington<br><b>Parameters:</b> [{'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.1, 'unit': 'ppb', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.16, 'unit': 'ppm', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '8HR_AV', 'startDateTime': '2024-05-11T21:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.31, 'unit': 'ppm', 'totalSample': 104}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 12.4, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 13.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.36, 'unit': 'none', 'totalSample': 13}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 21, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.52, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6, 'unit': 'ppb', 'totalSample': 13}]</div>`)[0];
+                popup_749b6f0a2f33a9696179d7f4581f3179.setContent(html_e7c6fc1849ddd782dc929fffd05dc38f);
+            
+        
+
+        marker_a099e59624edd879304517e9d7732ce7.bindPopup(popup_749b6f0a2f33a9696179d7f4581f3179)
+        ;
+
+        
+    
+    
+            marker_a099e59624edd879304517e9d7732ce7.bindTooltip(
+                `<div>
+                     Alphington
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0e7acb6c103d271356e9c664c50e222 = L.marker(
+                [146.2742, -38.44398],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_84e5ad50a5292767a69336bf993b4a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30d168e3b088cc549d047b9fa375e625 = $(`<div id="html_30d168e3b088cc549d047b9fa375e625" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Boolarra South<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.52, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_84e5ad50a5292767a69336bf993b4a82.setContent(html_30d168e3b088cc549d047b9fa375e625);
+            
+        
+
+        marker_b0e7acb6c103d271356e9c664c50e222.bindPopup(popup_84e5ad50a5292767a69336bf993b4a82)
+        ;
+
+        
+    
+    
+            marker_b0e7acb6c103d271356e9c664c50e222.bindTooltip(
+                `<div>
+                     Boolarra South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acc5d85048aa474dae3e1e711b850225 = L.marker(
+                [146.531464, -38.1942825],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_9d45572700227ecfde30eec9502595de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_643fb33fd5dc2af74a4550e6d80cadc7 = $(`<div id="html_643fb33fd5dc2af74a4550e6d80cadc7" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Traralgon<br><b>Parameters:</b> [{'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.27, 'unit': 'none', 'totalSample': 13}, {'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.35, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 21, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.14, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 2.96, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.84, 'unit': 'ppb', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'CO', 'timeSeriesName': '8HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}]</div>`)[0];
+                popup_9d45572700227ecfde30eec9502595de.setContent(html_643fb33fd5dc2af74a4550e6d80cadc7);
+            
+        
+
+        marker_acc5d85048aa474dae3e1e711b850225.bindPopup(popup_9d45572700227ecfde30eec9502595de)
+        ;
+
+        
+    
+    
+            marker_acc5d85048aa474dae3e1e711b850225.bindTooltip(
+                `<div>
+                     Traralgon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1b73953c978562d924dc8a3ce6ccf7e = L.marker(
+                [145.1987, -37.98576],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_21b6b0e4f3786025ccda274636e33945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba69bb6218b07926b723b04c320e01b = $(`<div id="html_7ba69bb6218b07926b723b04c320e01b" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Dandenong<br><b>Parameters:</b> [{'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.14, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 14.32, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.73, 'unit': 'none', 'totalSample': 13}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 18, 'unit': 'ppb', 'totalSample': 13}]</div>`)[0];
+                popup_21b6b0e4f3786025ccda274636e33945.setContent(html_7ba69bb6218b07926b723b04c320e01b);
+            
+        
+
+        marker_b1b73953c978562d924dc8a3ce6ccf7e.bindPopup(popup_21b6b0e4f3786025ccda274636e33945)
+        ;
+
+        
+    
+    
+            marker_b1b73953c978562d924dc8a3ce6ccf7e.bindTooltip(
+                `<div>
+                     Dandenong
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6305c4b4a4605cec5627645bcf63f70c = L.marker(
+                [146.5621, -38.19631],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_18ea36c648ae465c0754fdd8b3d46b6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3172c3760f62481bc1d35c7891d84935 = $(`<div id="html_3172c3760f62481bc1d35c7891d84935" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Traralgon East<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.92, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_18ea36c648ae465c0754fdd8b3d46b6d.setContent(html_3172c3760f62481bc1d35c7891d84935);
+            
+        
+
+        marker_6305c4b4a4605cec5627645bcf63f70c.bindPopup(popup_18ea36c648ae465c0754fdd8b3d46b6d)
+        ;
+
+        
+    
+    
+            marker_6305c4b4a4605cec5627645bcf63f70c.bindTooltip(
+                `<div>
+                     Traralgon East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_557c40580a07e86332eb073b44e88512 = L.marker(
+                [146.2751, -38.36981],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_f15c389ffdb7b67f27599ca671d41099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8887d921ef080c3a4b59d3ed651ee857 = $(`<div id="html_8887d921ef080c3a4b59d3ed651ee857" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Boolarra<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.21, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_f15c389ffdb7b67f27599ca671d41099.setContent(html_8887d921ef080c3a4b59d3ed651ee857);
+            
+        
+
+        marker_557c40580a07e86332eb073b44e88512.bindPopup(popup_f15c389ffdb7b67f27599ca671d41099)
+        ;
+
+        
+    
+    
+            marker_557c40580a07e86332eb073b44e88512.bindTooltip(
+                `<div>
+                     Boolarra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e70ad5159beb3ab93dcb9635e0fcaf99 = L.marker(
+                [146.258331, -38.1864662],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_f2878e80b03bbab11c9cafbc3a137d35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37c125cbe19844c7cb7c5e58512a19fb = $(`<div id="html_37c125cbe19844c7cb7c5e58512a19fb" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Moe<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.91, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.37, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.18, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_f2878e80b03bbab11c9cafbc3a137d35.setContent(html_37c125cbe19844c7cb7c5e58512a19fb);
+            
+        
+
+        marker_e70ad5159beb3ab93dcb9635e0fcaf99.bindPopup(popup_f2878e80b03bbab11c9cafbc3a137d35)
+        ;
+
+        
+    
+    
+            marker_e70ad5159beb3ab93dcb9635e0fcaf99.bindTooltip(
+                `<div>
+                     Moe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7d687d499798c5a8e616973eef08f08 = L.marker(
+                [146.3371, -38.32779],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_89becfaee813715b6ee866e83e2ddd06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ed8ffe3b9bad3e12ad24e9fa84bf7f9 = $(`<div id="html_7ed8ffe3b9bad3e12ad24e9fa84bf7f9" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Yinnar<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.63, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_89becfaee813715b6ee866e83e2ddd06.setContent(html_7ed8ffe3b9bad3e12ad24e9fa84bf7f9);
+            
+        
+
+        marker_d7d687d499798c5a8e616973eef08f08.bindPopup(popup_89becfaee813715b6ee866e83e2ddd06)
+        ;
+
+        
+    
+    
+            marker_d7d687d499798c5a8e616973eef08f08.bindTooltip(
+                `<div>
+                     Yinnar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82e3821a46460c10429b22be2686f18d = L.marker(
+                [146.1779, -38.07072],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_07394691ef1bbf1b70b0dd002206cdf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2abbcb54c4534e7e668de96474536d49 = $(`<div id="html_2abbcb54c4534e7e668de96474536d49" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Willow Grove<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.35, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.88, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_07394691ef1bbf1b70b0dd002206cdf8.setContent(html_2abbcb54c4534e7e668de96474536d49);
+            
+        
+
+        marker_82e3821a46460c10429b22be2686f18d.bindPopup(popup_07394691ef1bbf1b70b0dd002206cdf8)
+        ;
+
+        
+    
+    
+            marker_82e3821a46460c10429b22be2686f18d.bindTooltip(
+                `<div>
+                     Willow Grove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb619234b1f2bc3d23847ebe5cc33c18 = L.marker(
+                [146.6362, -38.24396],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6813d83095e6d9d806a1687996564e74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7953afe35c8db39a6f6d2229d237e32 = $(`<div id="html_c7953afe35c8db39a6f6d2229d237e32" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Flynns Creek<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.55, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.72, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_6813d83095e6d9d806a1687996564e74.setContent(html_c7953afe35c8db39a6f6d2229d237e32);
+            
+        
+
+        marker_fb619234b1f2bc3d23847ebe5cc33c18.bindPopup(popup_6813d83095e6d9d806a1687996564e74)
+        ;
+
+        
+    
+    
+            marker_fb619234b1f2bc3d23847ebe5cc33c18.bindTooltip(
+                `<div>
+                     Flynns Creek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56f4b27267fd5dc18ebff39a3967c14d = L.marker(
+                [146.482513, -38.1300278],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_be2fc3828bb3d235ce878ed916c4cd9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a5088c13f50b12e62975d6467e47002 = $(`<div id="html_1a5088c13f50b12e62975d6467e47002" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Tyers<br><b>Parameters:</b> []</div>`)[0];
+                popup_be2fc3828bb3d235ce878ed916c4cd9f.setContent(html_1a5088c13f50b12e62975d6467e47002);
+            
+        
+
+        marker_56f4b27267fd5dc18ebff39a3967c14d.bindPopup(popup_be2fc3828bb3d235ce878ed916c4cd9f)
+        ;
+
+        
+    
+    
+            marker_56f4b27267fd5dc18ebff39a3967c14d.bindTooltip(
+                `<div>
+                     Tyers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c2ea4d3e468c49258c2e993358a9da = L.marker(
+                [144.3703, -38.17356],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_e610ab73d7558bf164c9eeafbc5b0384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a738958f2b7017847e9c00dbdb8b0f6 = $(`<div id="html_8a738958f2b7017847e9c00dbdb8b0f6" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Geelong South<br><b>Parameters:</b> [{'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.36, 'unit': 'none', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.13, 'unit': 'ppm', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '8HR_AV', 'startDateTime': '2024-05-11T21:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.13, 'unit': 'ppm', 'totalSample': 104}, {'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.16, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.18, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.46, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.69, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8, 'unit': 'ppb', 'totalSample': 13}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}]</div>`)[0];
+                popup_e610ab73d7558bf164c9eeafbc5b0384.setContent(html_8a738958f2b7017847e9c00dbdb8b0f6);
+            
+        
+
+        marker_30c2ea4d3e468c49258c2e993358a9da.bindPopup(popup_e610ab73d7558bf164c9eeafbc5b0384)
+        ;
+
+        
+    
+    
+            marker_30c2ea4d3e468c49258c2e993358a9da.bindTooltip(
+                `<div>
+                     Geelong South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_651188ce340f03ad6a373286202ac6b7 = L.marker(
+                [146.323441, -38.1853447],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_2643a159e52861cd3bca65eac3088130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53570a516ea95eb41835d480ec9db84 = $(`<div id="html_d53570a516ea95eb41835d480ec9db84" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Hernes Oak<br><b>Parameters:</b> []</div>`)[0];
+                popup_2643a159e52861cd3bca65eac3088130.setContent(html_d53570a516ea95eb41835d480ec9db84);
+            
+        
+
+        marker_651188ce340f03ad6a373286202ac6b7.bindPopup(popup_2643a159e52861cd3bca65eac3088130)
+        ;
+
+        
+    
+    
+            marker_651188ce340f03ad6a373286202ac6b7.bindTooltip(
+                `<div>
+                     Hernes Oak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fbac21debeee7a71c70f068288ed0fb = L.marker(
+                [146.424454, -38.229393],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_14a594173bfd0804c808b2c9786e9c85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_560b3999c94dc7a4d61b3dd19e9334a1 = $(`<div id="html_560b3999c94dc7a4d61b3dd19e9334a1" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Morwell East<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.17, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.76, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.27, 'unit': 'none', 'totalSample': 13}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.09, 'unit': 'ppm', 'totalSample': 13}, {'name': 'CO', 'timeSeriesName': '8HR_AV', 'startDateTime': '2024-05-11T21:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.1, 'unit': 'ppm', 'totalSample': 104}, {'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.6, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.06, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}]</div>`)[0];
+                popup_14a594173bfd0804c808b2c9786e9c85.setContent(html_560b3999c94dc7a4d61b3dd19e9334a1);
+            
+        
+
+        marker_5fbac21debeee7a71c70f068288ed0fb.bindPopup(popup_14a594173bfd0804c808b2c9786e9c85)
+        ;
+
+        
+    
+    
+            marker_5fbac21debeee7a71c70f068288ed0fb.bindTooltip(
+                `<div>
+                     Morwell East
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9041b2766c937e712922b9b6460583eb = L.marker(
+                [146.3629, -38.16144],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_00c95acfb1173246aea3d831c834b58a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae223b09a86adae0e297d4b0d03cfab = $(`<div id="html_bae223b09a86adae0e297d4b0d03cfab" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Yallourn North<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.43, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.28, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_00c95acfb1173246aea3d831c834b58a.setContent(html_bae223b09a86adae0e297d4b0d03cfab);
+            
+        
+
+        marker_9041b2766c937e712922b9b6460583eb.bindPopup(popup_00c95acfb1173246aea3d831c834b58a)
+        ;
+
+        
+    
+    
+            marker_9041b2766c937e712922b9b6460583eb.bindTooltip(
+                `<div>
+                     Yallourn North
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99d9e0601d3e5009c0b43f4554ea04ed = L.marker(
+                [146.3133, -36.36926],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_0ce34be9fe0b56c61e7f55b4cf10926f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb7f03b5942dd7d2a2db40f16f0e083 = $(`<div id="html_cfb7f03b5942dd7d2a2db40f16f0e083" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Wangaratta<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.96, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.7, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_0ce34be9fe0b56c61e7f55b4cf10926f.setContent(html_cfb7f03b5942dd7d2a2db40f16f0e083);
+            
+        
+
+        marker_99d9e0601d3e5009c0b43f4554ea04ed.bindPopup(popup_0ce34be9fe0b56c61e7f55b4cf10926f)
+        ;
+
+        
+    
+    
+            marker_99d9e0601d3e5009c0b43f4554ea04ed.bindTooltip(
+                `<div>
+                     Wangaratta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57dc4529621630c103de389b7f420164 = L.marker(
+                [146.3261, -38.32676],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_99e19b719f749a6b512ca89ea9c77f9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77207a40ca6bd3a5c04421c80d812fff = $(`<div id="html_77207a40ca6bd3a5c04421c80d812fff" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Yinnar<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.97, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}]</div>`)[0];
+                popup_99e19b719f749a6b512ca89ea9c77f9a.setContent(html_77207a40ca6bd3a5c04421c80d812fff);
+            
+        
+
+        marker_57dc4529621630c103de389b7f420164.bindPopup(popup_99e19b719f749a6b512ca89ea9c77f9a)
+        ;
+
+        
+    
+    
+            marker_57dc4529621630c103de389b7f420164.bindTooltip(
+                `<div>
+                     Yinnar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a294b072bfb22e0c3c0e0e805ac91c92 = L.marker(
+                [144.7567, -37.9263153],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_975bf800c3fc9aeda6f6c1dd464123c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_542b7b0b64991e7399929bf1638f2a08 = $(`<div id="html_542b7b0b64991e7399929bf1638f2a08" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Point Cook<br><b>Parameters:</b> [{'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 25, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.83, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.45, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_975bf800c3fc9aeda6f6c1dd464123c5.setContent(html_542b7b0b64991e7399929bf1638f2a08);
+            
+        
+
+        marker_a294b072bfb22e0c3c0e0e805ac91c92.bindPopup(popup_975bf800c3fc9aeda6f6c1dd464123c5)
+        ;
+
+        
+    
+    
+            marker_a294b072bfb22e0c3c0e0e805ac91c92.bindTooltip(
+                `<div>
+                     Point Cook
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_460b2b312bcbd152ca9965e2b22fe22b = L.marker(
+                [142.139374, -34.1635132],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_0af21131d16a108408133b90704d8a7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f76f94e1c6da979e3295723de93fce48 = $(`<div id="html_f76f94e1c6da979e3295723de93fce48" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Mildura<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.48, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.23, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_0af21131d16a108408133b90704d8a7d.setContent(html_f76f94e1c6da979e3295723de93fce48);
+            
+        
+
+        marker_460b2b312bcbd152ca9965e2b22fe22b.bindPopup(popup_0af21131d16a108408133b90704d8a7d)
+        ;
+
+        
+    
+    
+            marker_460b2b312bcbd152ca9965e2b22fe22b.bindTooltip(
+                `<div>
+                     Mildura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a34d445e17d2a2eb84388f2a67c5dc72 = L.marker(
+                [144.97, -37.8073959],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_63ee535a6a39b70477952b80d4d3715f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f7e40715a8bc76647254f609d325b91 = $(`<div id="html_3f7e40715a8bc76647254f609d325b91" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Melbourne CBD<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 15.72, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.79, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_63ee535a6a39b70477952b80d4d3715f.setContent(html_3f7e40715a8bc76647254f609d325b91);
+            
+        
+
+        marker_a34d445e17d2a2eb84388f2a67c5dc72.bindPopup(popup_63ee535a6a39b70477952b80d4d3715f)
+        ;
+
+        
+    
+    
+            marker_a34d445e17d2a2eb84388f2a67c5dc72.bindTooltip(
+                `<div>
+                     Melbourne CBD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c67c9a72a639fc9d6c3fd63f4489ef0 = L.marker(
+                [146.588211, -38.36169],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_618f9fa3f1931af59882c98b5ba21818 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36059e7d3b0bbbb31969894be839b338 = $(`<div id="html_36059e7d3b0bbbb31969894be839b338" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Callignee<br><b>Parameters:</b> []</div>`)[0];
+                popup_618f9fa3f1931af59882c98b5ba21818.setContent(html_36059e7d3b0bbbb31969894be839b338);
+            
+        
+
+        marker_0c67c9a72a639fc9d6c3fd63f4489ef0.bindPopup(popup_618f9fa3f1931af59882c98b5ba21818)
+        ;
+
+        
+    
+    
+            marker_0c67c9a72a639fc9d6c3fd63f4489ef0.bindTooltip(
+                `<div>
+                     Callignee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd5ba906b44f1e1b4b3cebfc9c5f2c59 = L.marker(
+                [144.998, -37.9135475],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6f849f7f05122cb259196b3d95175772 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2f59bdc3458fcf467688f14086192e5 = $(`<div id="html_f2f59bdc3458fcf467688f14086192e5" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Brighton<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 12.71, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.69, 'unit': '&micro;g/m&sup3;', 'totalSample': 311}]</div>`)[0];
+                popup_6f849f7f05122cb259196b3d95175772.setContent(html_f2f59bdc3458fcf467688f14086192e5);
+            
+        
+
+        marker_fd5ba906b44f1e1b4b3cebfc9c5f2c59.bindPopup(popup_6f849f7f05122cb259196b3d95175772)
+        ;
+
+        
+    
+    
+            marker_fd5ba906b44f1e1b4b3cebfc9c5f2c59.bindTooltip(
+                `<div>
+                     Brighton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb4eb0cec27b386784ed72c2d455d700 = L.marker(
+                [144.861618, -37.8441238],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_3c9fefd16067d1fdbb4f5b27d640dcb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a06d7570d41be17ec4b0aee89435e8 = $(`<div id="html_a0a06d7570d41be17ec4b0aee89435e8" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Altona North<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.68, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.81, 'unit': 'ppb', 'totalSample': 13}, {'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 10, 'unit': 'ppb', 'totalSample': 13}]</div>`)[0];
+                popup_3c9fefd16067d1fdbb4f5b27d640dcb3.setContent(html_a0a06d7570d41be17ec4b0aee89435e8);
+            
+        
+
+        marker_cb4eb0cec27b386784ed72c2d455d700.bindPopup(popup_3c9fefd16067d1fdbb4f5b27d640dcb3)
+        ;
+
+        
+    
+    
+            marker_cb4eb0cec27b386784ed72c2d455d700.bindTooltip(
+                `<div>
+                     Altona North
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8701a5aafaf13c91958a279ed8cfb3d = L.marker(
+                [144.754288, -36.12591],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_a37f6f756e69186aeffde0544d25f1ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d38358fd40570666e87af9a4edda917b = $(`<div id="html_d38358fd40570666e87af9a4edda917b" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Echuca<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}]</div>`)[0];
+                popup_a37f6f756e69186aeffde0544d25f1ce.setContent(html_d38358fd40570666e87af9a4edda917b);
+            
+        
+
+        marker_b8701a5aafaf13c91958a279ed8cfb3d.bindPopup(popup_a37f6f756e69186aeffde0544d25f1ce)
+        ;
+
+        
+    
+    
+            marker_b8701a5aafaf13c91958a279ed8cfb3d.bindTooltip(
+                `<div>
+                     Echuca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d5e96d77649d32e4703119e83d60171 = L.marker(
+                [143.842438, -37.5293274],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_749ccf3db734a0b6b9d18fac696030c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfcc5a896dcdfe495b12d78d5c92179b = $(`<div id="html_bfcc5a896dcdfe495b12d78d5c92179b" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Ballarat<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.25, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 11.82, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_749ccf3db734a0b6b9d18fac696030c2.setContent(html_bfcc5a896dcdfe495b12d78d5c92179b);
+            
+        
+
+        marker_5d5e96d77649d32e4703119e83d60171.bindPopup(popup_749ccf3db734a0b6b9d18fac696030c2)
+        ;
+
+        
+    
+    
+            marker_5d5e96d77649d32e4703119e83d60171.bindTooltip(
+                `<div>
+                     Ballarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8ef1c07eddb19e5d8d724fd3e3631b9 = L.marker(
+                [142.175415, -36.72263],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_d1542602a2bce3aeb2bc4cf05a86cba8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd6068e0d9f855e348d4970edf27b4ee = $(`<div id="html_dd6068e0d9f855e348d4970edf27b4ee" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Horsham<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.63, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.85, 'unit': '&micro;g/m&sup3;', 'totalSample': 252}]</div>`)[0];
+                popup_d1542602a2bce3aeb2bc4cf05a86cba8.setContent(html_dd6068e0d9f855e348d4970edf27b4ee);
+            
+        
+
+        marker_d8ef1c07eddb19e5d8d724fd3e3631b9.bindPopup(popup_d1542602a2bce3aeb2bc4cf05a86cba8)
+        ;
+
+        
+    
+    
+            marker_d8ef1c07eddb19e5d8d724fd3e3631b9.bindTooltip(
+                `<div>
+                     Horsham
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_681444f4f09b36dd7d535f238ebbc906 = L.marker(
+                [147.620209, -37.829895],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_7021e2f46212c2b351a26ca142015861 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3f5f45eb3c2a2870c61308dad47ec1 = $(`<div id="html_3b3f5f45eb3c2a2870c61308dad47ec1" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Bairnsdale<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.53, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.05, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_7021e2f46212c2b351a26ca142015861.setContent(html_3b3f5f45eb3c2a2870c61308dad47ec1);
+            
+        
+
+        marker_681444f4f09b36dd7d535f238ebbc906.bindPopup(popup_7021e2f46212c2b351a26ca142015861)
+        ;
+
+        
+    
+    
+            marker_681444f4f09b36dd7d535f238ebbc906.bindTooltip(
+                `<div>
+                     Bairnsdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b15a441f05080028968000433507c672 = L.marker(
+                [144.233292, -37.0730247],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_3337896ac72227a1055466ad25d2fcfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e012b63e46043b949c224c4de87a63bc = $(`<div id="html_e012b63e46043b949c224c4de87a63bc" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Castlemaine<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.77, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.06, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_3337896ac72227a1055466ad25d2fcfa.setContent(html_e012b63e46043b949c224c4de87a63bc);
+            
+        
+
+        marker_b15a441f05080028968000433507c672.bindPopup(popup_3337896ac72227a1055466ad25d2fcfa)
+        ;
+
+        
+    
+    
+            marker_b15a441f05080028968000433507c672.bindTooltip(
+                `<div>
+                     Castlemaine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8020a53d89753184bfe91ea72ab7d07 = L.marker(
+                [146.3873, -38.2392921],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_c3c343aaf4f2348e73c64a967a5e9ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b53b0ddd8caeb245f227c85135f1483a = $(`<div id="html_b53b0ddd8caeb245f227c85135f1483a" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Morwell South<br><b>Parameters:</b> [{'name': 'SO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'CO', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'CO', 'timeSeriesName': '8HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.26, 'unit': 'none', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 23, 'unit': 'ppb', 'totalSample': 13}, {'name': 'NO2', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1, 'unit': 'ppb', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.7, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.44, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}]</div>`)[0];
+                popup_c3c343aaf4f2348e73c64a967a5e9ce7.setContent(html_b53b0ddd8caeb245f227c85135f1483a);
+            
+        
+
+        marker_d8020a53d89753184bfe91ea72ab7d07.bindPopup(popup_c3c343aaf4f2348e73c64a967a5e9ce7)
+        ;
+
+        
+    
+    
+            marker_d8020a53d89753184bfe91ea72ab7d07.bindTooltip(
+                `<div>
+                     Morwell South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d52854b1677cd3b507beaa1c4fa8812 = L.marker(
+                [143.076, -38.32716],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_45fa5718408ef93b5d5d9e1f44ebc4ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53dbc18867ae10b37dc495fd01d4ece3 = $(`<div id="html_53dbc18867ae10b37dc495fd01d4ece3" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Cobden<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.25, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.89, 'unit': '&micro;g/m&sup3;', 'totalSample': 228}]</div>`)[0];
+                popup_45fa5718408ef93b5d5d9e1f44ebc4ba.setContent(html_53dbc18867ae10b37dc495fd01d4ece3);
+            
+        
+
+        marker_0d52854b1677cd3b507beaa1c4fa8812.bindPopup(popup_45fa5718408ef93b5d5d9e1f44ebc4ba)
+        ;
+
+        
+    
+    
+            marker_0d52854b1677cd3b507beaa1c4fa8812.bindTooltip(
+                `<div>
+                     Cobden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71e3dcfb561891444ebf3d8c78a34d4f = L.marker(
+                [145.997223, -36.54932],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_b4cc71dc4119abbc56684cc0ce14bca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dbe60945acb4fd42b6e6e6e1ff6f34d = $(`<div id="html_3dbe60945acb4fd42b6e6e6e1ff6f34d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Benalla<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.39, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_b4cc71dc4119abbc56684cc0ce14bca9.setContent(html_3dbe60945acb4fd42b6e6e6e1ff6f34d);
+            
+        
+
+        marker_71e3dcfb561891444ebf3d8c78a34d4f.bindPopup(popup_b4cc71dc4119abbc56684cc0ce14bca9)
+        ;
+
+        
+    
+    
+            marker_71e3dcfb561891444ebf3d8c78a34d4f.bindTooltip(
+                `<div>
+                     Benalla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f618bfddf276b33ea641767d41404f02 = L.marker(
+                [145.5275, -37.6468239],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_0bb965681add79cf0bd4699cd1846f04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8e07d4ed8b33826ee0358ee2ec3f926 = $(`<div id="html_c8e07d4ed8b33826ee0358ee2ec3f926" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Healesville<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.72, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_0bb965681add79cf0bd4699cd1846f04.setContent(html_c8e07d4ed8b33826ee0358ee2ec3f926);
+            
+        
+
+        marker_f618bfddf276b33ea641767d41404f02.bindPopup(popup_0bb965681add79cf0bd4699cd1846f04)
+        ;
+
+        
+    
+    
+            marker_f618bfddf276b33ea641767d41404f02.bindTooltip(
+                `<div>
+                     Healesville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7ec0d1c7d3e8fdc1868b2a8f4fdfdaa = L.marker(
+                [144.5862, -37.4853172],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_a8c79ff9925cb034383ae0cb97a6a572 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d993c643356b838d5681f7c1cdb616c = $(`<div id="html_2d993c643356b838d5681f7c1cdb616c" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Gisborne<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.72, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.09, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_a8c79ff9925cb034383ae0cb97a6a572.setContent(html_2d993c643356b838d5681f7c1cdb616c);
+            
+        
+
+        marker_b7ec0d1c7d3e8fdc1868b2a8f4fdfdaa.bindPopup(popup_a8c79ff9925cb034383ae0cb97a6a572)
+        ;
+
+        
+    
+    
+            marker_b7ec0d1c7d3e8fdc1868b2a8f4fdfdaa.bindTooltip(
+                `<div>
+                     Gisborne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f16db6f06fecda8714458237d6e7b83 = L.marker(
+                [144.73526, -37.2782669],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_aac3da8b8f90449be4bd77ed70ab3553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36557181d0b4261bbe02e81eab772e00 = $(`<div id="html_36557181d0b4261bbe02e81eab772e00" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Lancefield<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.25, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.41, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_aac3da8b8f90449be4bd77ed70ab3553.setContent(html_36557181d0b4261bbe02e81eab772e00);
+            
+        
+
+        marker_6f16db6f06fecda8714458237d6e7b83.bindPopup(popup_aac3da8b8f90449be4bd77ed70ab3553)
+        ;
+
+        
+    
+    
+            marker_6f16db6f06fecda8714458237d6e7b83.bindTooltip(
+                `<div>
+                     Lancefield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6bb81e5be25c8dbc5b788a9cfb1a7d3 = L.marker(
+                [142.510986, -38.3860931],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_ae5f9f6e466875953eed91224899bce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e8300a432096f1842e0cd5789bfb3c8 = $(`<div id="html_1e8300a432096f1842e0cd5789bfb3c8" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Warrnambool<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.73, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.11, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_ae5f9f6e466875953eed91224899bce1.setContent(html_1e8300a432096f1842e0cd5789bfb3c8);
+            
+        
+
+        marker_d6bb81e5be25c8dbc5b788a9cfb1a7d3.bindPopup(popup_ae5f9f6e466875953eed91224899bce1)
+        ;
+
+        
+    
+    
+            marker_d6bb81e5be25c8dbc5b788a9cfb1a7d3.bindTooltip(
+                `<div>
+                     Warrnambool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbf370ca4a0804f0af459842684a7423 = L.marker(
+                [144.709946, -36.92107],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_defb77855b5186dfc0f3c122a0d3fcd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ca01d9d348bb41850b0dcba0e4cc51 = $(`<div id="html_d7ca01d9d348bb41850b0dcba0e4cc51" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Heathcote<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.08, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.42, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_defb77855b5186dfc0f3c122a0d3fcd0.setContent(html_d7ca01d9d348bb41850b0dcba0e4cc51);
+            
+        
+
+        marker_cbf370ca4a0804f0af459842684a7423.bindPopup(popup_defb77855b5186dfc0f3c122a0d3fcd0)
+        ;
+
+        
+    
+    
+            marker_cbf370ca4a0804f0af459842684a7423.bindTooltip(
+                `<div>
+                     Heathcote
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32e9945427c91f241ee1e003d7e6c884 = L.marker(
+                [144.451111, -37.24706],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_54b5a9e7429a7b9ada82ae9c8d21bbb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c181f9f227f27c0fedc4d644c381cb9 = $(`<div id="html_8c181f9f227f27c0fedc4d644c381cb9" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Kyneton<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.69, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_54b5a9e7429a7b9ada82ae9c8d21bbb3.setContent(html_8c181f9f227f27c0fedc4d644c381cb9);
+            
+        
+
+        marker_32e9945427c91f241ee1e003d7e6c884.bindPopup(popup_54b5a9e7429a7b9ada82ae9c8d21bbb3)
+        ;
+
+        
+    
+    
+            marker_32e9945427c91f241ee1e003d7e6c884.bindTooltip(
+                `<div>
+                     Kyneton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0a55acde177d713c786b10449afaa4c = L.marker(
+                [146.679077, -36.37299],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6dcd4473a63e598dfc35e2289341c7c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f0c76bab2bacadfd69470ffa773bbc6 = $(`<div id="html_5f0c76bab2bacadfd69470ffa773bbc6" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Beechworth<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.25, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.4, 'unit': '&micro;g/m&sup3;', 'totalSample': 252}]</div>`)[0];
+                popup_6dcd4473a63e598dfc35e2289341c7c4.setContent(html_5f0c76bab2bacadfd69470ffa773bbc6);
+            
+        
+
+        marker_f0a55acde177d713c786b10449afaa4c.bindPopup(popup_6dcd4473a63e598dfc35e2289341c7c4)
+        ;
+
+        
+    
+    
+            marker_f0a55acde177d713c786b10449afaa4c.bindTooltip(
+                `<div>
+                     Beechworth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b68cebd7c8a23a7d7fe643c2b1e27d6 = L.marker(
+                [145.340515, -37.5337448],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_bdd2150e8c5b2c57857791918ef5b1f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79dc285445acbfff0868c89cba1b1f14 = $(`<div id="html_79dc285445acbfff0868c89cba1b1f14" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Kinglake<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.82, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.3, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_bdd2150e8c5b2c57857791918ef5b1f9.setContent(html_79dc285445acbfff0868c89cba1b1f14);
+            
+        
+
+        marker_9b68cebd7c8a23a7d7fe643c2b1e27d6.bindPopup(popup_bdd2150e8c5b2c57857791918ef5b1f9)
+        ;
+
+        
+    
+    
+            marker_9b68cebd7c8a23a7d7fe643c2b1e27d6.bindTooltip(
+                `<div>
+                     Kinglake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ae091437ad82f012fa8905cad9be61b = L.marker(
+                [141.631821, -38.1323051],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_7fd80a43764bd6ebce4ddef716b6e02d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a915410a84021406630a6f75a6f157ea = $(`<div id="html_a915410a84021406630a6f75a6f157ea" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Heywood<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.42, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 11.8, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_7fd80a43764bd6ebce4ddef716b6e02d.setContent(html_a915410a84021406630a6f75a6f157ea);
+            
+        
+
+        marker_2ae091437ad82f012fa8905cad9be61b.bindPopup(popup_7fd80a43764bd6ebce4ddef716b6e02d)
+        ;
+
+        
+    
+    
+            marker_2ae091437ad82f012fa8905cad9be61b.bindTooltip(
+                `<div>
+                     Heywood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38113fa224aab3e40dccee8b9f5f6629 = L.marker(
+                [142.935608, -37.2828064],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_774c126844fccb99002ba62f950fba87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c350f8640135bdb5364af35389c6986a = $(`<div id="html_c350f8640135bdb5364af35389c6986a" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Ararat<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.57, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 10.84, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_774c126844fccb99002ba62f950fba87.setContent(html_c350f8640135bdb5364af35389c6986a);
+            
+        
+
+        marker_38113fa224aab3e40dccee8b9f5f6629.bindPopup(popup_774c126844fccb99002ba62f950fba87)
+        ;
+
+        
+    
+    
+            marker_38113fa224aab3e40dccee8b9f5f6629.bindTooltip(
+                `<div>
+                     Ararat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_659ba55bf0efa69b33d9b1ab59e63a99 = L.marker(
+                [144.130463, -37.3410339],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_afb59514464c63e7b35c5fc48e273037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d055a578e25ddeb15ad5d6093cca827b = $(`<div id="html_d055a578e25ddeb15ad5d6093cca827b" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Daylesford<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.76, 'unit': '&micro;g/m&sup3;', 'totalSample': 228}]</div>`)[0];
+                popup_afb59514464c63e7b35c5fc48e273037.setContent(html_d055a578e25ddeb15ad5d6093cca827b);
+            
+        
+
+        marker_659ba55bf0efa69b33d9b1ab59e63a99.bindPopup(popup_afb59514464c63e7b35c5fc48e273037)
+        ;
+
+        
+    
+    
+            marker_659ba55bf0efa69b33d9b1ab59e63a99.bindTooltip(
+                `<div>
+                     Daylesford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc89dd1adab375ea995e0ce112d866ec = L.marker(
+                [143.924866, -35.7475281],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_f2364fd965224c980a69f901a0d7f7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737d03bb7a37c3486c42d0e59b16e268 = $(`<div id="html_737d03bb7a37c3486c42d0e59b16e268" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Kerang<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.24, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_f2364fd965224c980a69f901a0d7f7c2.setContent(html_737d03bb7a37c3486c42d0e59b16e268);
+            
+        
+
+        marker_cc89dd1adab375ea995e0ce112d866ec.bindPopup(popup_f2364fd965224c980a69f901a0d7f7c2)
+        ;
+
+        
+    
+    
+            marker_cc89dd1adab375ea995e0ce112d866ec.bindTooltip(
+                `<div>
+                     Kerang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f906e6321f573d2ace0a95e9c5ad16 = L.marker(
+                [143.140152, -38.2248344],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6b7e7cff07101dec559b652b8bebce69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5bbc4a80311829e3b7f98907dd1e000 = $(`<div id="html_c5bbc4a80311829e3b7f98907dd1e000" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Camperdown<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.45, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.35, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_6b7e7cff07101dec559b652b8bebce69.setContent(html_c5bbc4a80311829e3b7f98907dd1e000);
+            
+        
+
+        marker_52f906e6321f573d2ace0a95e9c5ad16.bindPopup(popup_6b7e7cff07101dec559b652b8bebce69)
+        ;
+
+        
+    
+    
+            marker_52f906e6321f573d2ace0a95e9c5ad16.bindTooltip(
+                `<div>
+                     Camperdown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf293c65a474aef0f340fa5c2bcc99cf = L.marker(
+                [148.456284, -37.7059746],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_bc4d8f0dc7b015603d9331f0c39a090e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67e50e44465ab956b25583f38fb54a50 = $(`<div id="html_67e50e44465ab956b25583f38fb54a50" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Orbost<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.85, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.87, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_bc4d8f0dc7b015603d9331f0c39a090e.setContent(html_67e50e44465ab956b25583f38fb54a50);
+            
+        
+
+        marker_cf293c65a474aef0f340fa5c2bcc99cf.bindPopup(popup_bc4d8f0dc7b015603d9331f0c39a090e)
+        ;
+
+        
+    
+    
+            marker_cf293c65a474aef0f340fa5c2bcc99cf.bindTooltip(
+                `<div>
+                     Orbost
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c4553f7406afb241e4a19232d2f4e9a = L.marker(
+                [143.9738, -38.5403671],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_fb4ee43535c749a0b19bea7462e62459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2d171e0259ebbbc67f8df5f9a32bc4 = $(`<div id="html_1e2d171e0259ebbbc67f8df5f9a32bc4" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Lorne<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.1, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.24, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_fb4ee43535c749a0b19bea7462e62459.setContent(html_1e2d171e0259ebbbc67f8df5f9a32bc4);
+            
+        
+
+        marker_7c4553f7406afb241e4a19232d2f4e9a.bindPopup(popup_fb4ee43535c749a0b19bea7462e62459)
+        ;
+
+        
+    
+    
+            marker_7c4553f7406afb241e4a19232d2f4e9a.bindTooltip(
+                `<div>
+                     Lorne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0008ac4b24198f00c26ade597d47d4e = L.marker(
+                [143.594269, -38.3456841],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_e6f80f9dbc7043c464ca85849088e6ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b62e8a783e1aed38736fa400e499353 = $(`<div id="html_4b62e8a783e1aed38736fa400e499353" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Colac<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.23, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.32, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_e6f80f9dbc7043c464ca85849088e6ef.setContent(html_4b62e8a783e1aed38736fa400e499353);
+            
+        
+
+        marker_e0008ac4b24198f00c26ade597d47d4e.bindPopup(popup_e6f80f9dbc7043c464ca85849088e6ef)
+        ;
+
+        
+    
+    
+            marker_e0008ac4b24198f00c26ade597d47d4e.bindTooltip(
+                `<div>
+                     Colac
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b4bdfa07e4403b82e0fb0008067e287 = L.marker(
+                [146.077087, -37.0508],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_b8172b7bf464ef8ff494d944019583c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87a38845c17a52c520de0c1b82f7673e = $(`<div id="html_87a38845c17a52c520de0c1b82f7673e" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Mansfield<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.05, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.84, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_b8172b7bf464ef8ff494d944019583c2.setContent(html_87a38845c17a52c520de0c1b82f7673e);
+            
+        
+
+        marker_4b4bdfa07e4403b82e0fb0008067e287.bindPopup(popup_b8172b7bf464ef8ff494d944019583c2)
+        ;
+
+        
+    
+    
+            marker_4b4bdfa07e4403b82e0fb0008067e287.bindTooltip(
+                `<div>
+                     Mansfield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5a868511e7ad9a1c98a67ab1765fd50 = L.marker(
+                [149.751114, -37.56016],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_c7d1e052d225bbbbf4690f7821b720f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5104adf3e728b1576da6724cdae952be = $(`<div id="html_5104adf3e728b1576da6724cdae952be" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Mallacoota<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.15, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.79, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_c7d1e052d225bbbbf4690f7821b720f9.setContent(html_5104adf3e728b1576da6724cdae952be);
+            
+        
+
+        marker_d5a868511e7ad9a1c98a67ab1765fd50.bindPopup(popup_c7d1e052d225bbbbf4690f7821b720f9)
+        ;
+
+        
+    
+    
+            marker_d5a868511e7ad9a1c98a67ab1765fd50.bindTooltip(
+                `<div>
+                     Mallacoota
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25e7033037993c3c3f38e7e42f8a9278 = L.marker(
+                [146.991745, -37.9596977],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_2feb9c8ad53d197f897a264b01ae9816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef7343d1cef71a6e9c130bb651cdb563 = $(`<div id="html_ef7343d1cef71a6e9c130bb651cdb563" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Maffra<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.18, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_2feb9c8ad53d197f897a264b01ae9816.setContent(html_ef7343d1cef71a6e9c130bb651cdb563);
+            
+        
+
+        marker_25e7033037993c3c3f38e7e42f8a9278.bindPopup(popup_2feb9c8ad53d197f897a264b01ae9816)
+        ;
+
+        
+    
+    
+            marker_25e7033037993c3c3f38e7e42f8a9278.bindTooltip(
+                `<div>
+                     Maffra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ceb8100b1547585023b2cff58a72e05 = L.marker(
+                [145.941544, -38.1666527],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_5994985b2c4077819744143a1fe4f2f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a3ee8c5038849c5fe7fe8b5cabd1390 = $(`<div id="html_9a3ee8c5038849c5fe7fe8b5cabd1390" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Warragul<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.28, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.28, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_5994985b2c4077819744143a1fe4f2f0.setContent(html_9a3ee8c5038849c5fe7fe8b5cabd1390);
+            
+        
+
+        marker_6ceb8100b1547585023b2cff58a72e05.bindPopup(popup_5994985b2c4077819744143a1fe4f2f0)
+        ;
+
+        
+    
+    
+            marker_6ceb8100b1547585023b2cff58a72e05.bindTooltip(
+                `<div>
+                     Warragul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cb9f758a646cb66820edaaefbd2bcb7 = L.marker(
+                [145.406616, -36.3808365],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_0b282e2183db310f306b7ba3954dd964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8dd75954e1a0eb111b68d809745921d = $(`<div id="html_e8dd75954e1a0eb111b68d809745921d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Shepparton<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.17, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_0b282e2183db310f306b7ba3954dd964.setContent(html_e8dd75954e1a0eb111b68d809745921d);
+            
+        
+
+        marker_9cb9f758a646cb66820edaaefbd2bcb7.bindPopup(popup_0b282e2183db310f306b7ba3954dd964)
+        ;
+
+        
+    
+    
+            marker_9cb9f758a646cb66820edaaefbd2bcb7.bindTooltip(
+                `<div>
+                     Shepparton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd8be79ebfdd9e432df0bbd6f8b40d43 = L.marker(
+                [144.562225, -37.4230652],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_8d1a06791fae42ae1bc1a6b2e8691e2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40053cb14e144d7d7315d264677e53e0 = $(`<div id="html_40053cb14e144d7d7315d264677e53e0" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Macedon<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.78, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_8d1a06791fae42ae1bc1a6b2e8691e2e.setContent(html_40053cb14e144d7d7315d264677e53e0);
+            
+        
+
+        marker_cd8be79ebfdd9e432df0bbd6f8b40d43.bindPopup(popup_8d1a06791fae42ae1bc1a6b2e8691e2e)
+        ;
+
+        
+    
+    
+            marker_cd8be79ebfdd9e432df0bbd6f8b40d43.bindTooltip(
+                `<div>
+                     Macedon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7205746d5aaeebdf068e75613fe3d39 = L.marker(
+                [146.8983, -36.1377754],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_df8fda581c5ecd7a391cc81a5cfbb8a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a13828cb9b5dd58cfcb5317ef52559c = $(`<div id="html_6a13828cb9b5dd58cfcb5317ef52559c" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Wodonga<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.35, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_df8fda581c5ecd7a391cc81a5cfbb8a1.setContent(html_6a13828cb9b5dd58cfcb5317ef52559c);
+            
+        
+
+        marker_e7205746d5aaeebdf068e75613fe3d39.bindPopup(popup_df8fda581c5ecd7a391cc81a5cfbb8a1)
+        ;
+
+        
+    
+    
+            marker_e7205746d5aaeebdf068e75613fe3d39.bindTooltip(
+                `<div>
+                     Wodonga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acfef8efd36ad9ca06ca8afb2eae21c3 = L.marker(
+                [142.318649, -35.0655365],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_14618a5ffbce5256b6c55b3a93aacbd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba59f5276ff44289f080211f8ed5f050 = $(`<div id="html_ba59f5276ff44289f080211f8ed5f050" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Ouyen<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.69, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_14618a5ffbce5256b6c55b3a93aacbd2.setContent(html_ba59f5276ff44289f080211f8ed5f050);
+            
+        
+
+        marker_acfef8efd36ad9ca06ca8afb2eae21c3.bindPopup(popup_14618a5ffbce5256b6c55b3a93aacbd2)
+        ;
+
+        
+    
+    
+            marker_acfef8efd36ad9ca06ca8afb2eae21c3.bindTooltip(
+                `<div>
+                     Ouyen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1380e176b70234bac98f6774ecb0c0a = L.marker(
+                [142.020813, -37.73387],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_d26067f725c0ef697a0502e4eeaec2c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65d45072694cbbb95f6b87f0e2bf349a = $(`<div id="html_65d45072694cbbb95f6b87f0e2bf349a" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Hamilton<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 10.32, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_d26067f725c0ef697a0502e4eeaec2c8.setContent(html_65d45072694cbbb95f6b87f0e2bf349a);
+            
+        
+
+        marker_e1380e176b70234bac98f6774ecb0c0a.bindPopup(popup_d26067f725c0ef697a0502e4eeaec2c8)
+        ;
+
+        
+    
+    
+            marker_e1380e176b70234bac98f6774ecb0c0a.bindTooltip(
+                `<div>
+                     Hamilton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d75d0c272dfd61d30b24353b1c4c9664 = L.marker(
+                [145.04805, -37.2078857],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_10b752d549ff51ba29f6a70c6acf6f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdef661625f51ec25b0a80fe76905a9a = $(`<div id="html_cdef661625f51ec25b0a80fe76905a9a" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Broadford<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.08, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.42, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_10b752d549ff51ba29f6a70c6acf6f33.setContent(html_cdef661625f51ec25b0a80fe76905a9a);
+            
+        
+
+        marker_d75d0c272dfd61d30b24353b1c4c9664.bindPopup(popup_10b752d549ff51ba29f6a70c6acf6f33)
+        ;
+
+        
+    
+    
+            marker_d75d0c272dfd61d30b24353b1c4c9664.bindTooltip(
+                `<div>
+                     Broadford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb28062c3f7499c4aba836f7975d053 = L.marker(
+                [146.013016, -36.01634],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_8d57f01ce3b65ec1303693db555a93c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad863d38a6eab441b8582cc24c5352e = $(`<div id="html_cad863d38a6eab441b8582cc24c5352e" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Yarrawonga<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.1, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.45, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_8d57f01ce3b65ec1303693db555a93c3.setContent(html_cad863d38a6eab441b8582cc24c5352e);
+            
+        
+
+        marker_4eb28062c3f7499c4aba836f7975d053.bindPopup(popup_8d57f01ce3b65ec1303693db555a93c3)
+        ;
+
+        
+    
+    
+            marker_4eb28062c3f7499c4aba836f7975d053.bindTooltip(
+                `<div>
+                     Yarrawonga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eeeac6e4902204de297fdc0ea577328a = L.marker(
+                [147.057541, -38.102684],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_a9ecde669785a219ae6241254c3fe3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6df073ce8614dadde42435948809d41 = $(`<div id="html_c6df073ce8614dadde42435948809d41" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Sale<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.75, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.32, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_a9ecde669785a219ae6241254c3fe3a4.setContent(html_c6df073ce8614dadde42435948809d41);
+            
+        
+
+        marker_eeeac6e4902204de297fdc0ea577328a.bindPopup(popup_a9ecde669785a219ae6241254c3fe3a4)
+        ;
+
+        
+    
+    
+            marker_eeeac6e4902204de297fdc0ea577328a.bindTooltip(
+                `<div>
+                     Sale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abdce3be49c0a1df72f72e4d4ac42e14 = L.marker(
+                [146.463989, -36.0538254],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_25287038734920dbda2247fb492af156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8151eb99578648e290dbb2be8a5f7ab7 = $(`<div id="html_8151eb99578648e290dbb2be8a5f7ab7" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Rutherglen<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.15, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.9, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_25287038734920dbda2247fb492af156.setContent(html_8151eb99578648e290dbb2be8a5f7ab7);
+            
+        
+
+        marker_abdce3be49c0a1df72f72e4d4ac42e14.bindPopup(popup_25287038734920dbda2247fb492af156)
+        ;
+
+        
+    
+    
+            marker_abdce3be49c0a1df72f72e4d4ac42e14.bindTooltip(
+                `<div>
+                     Rutherglen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_920c1094632d7e36ef4a8053229c3915 = L.marker(
+                [146.9702, -36.73228],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_fa260c9aa644e142d4a295fc61e7a32b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cffd1f430966a5faf58040c29d6e8a5 = $(`<div id="html_2cffd1f430966a5faf58040c29d6e8a5" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Bright<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.03, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_fa260c9aa644e142d4a295fc61e7a32b.setContent(html_2cffd1f430966a5faf58040c29d6e8a5);
+            
+        
+
+        marker_920c1094632d7e36ef4a8053229c3915.bindPopup(popup_fa260c9aa644e142d4a295fc61e7a32b)
+        ;
+
+        
+    
+    
+            marker_920c1094632d7e36ef4a8053229c3915.bindTooltip(
+                `<div>
+                     Bright
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d0cbcf7647864354c438464a60aa1c7 = L.marker(
+                [146.72081, -36.5539742],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_a7446879f474a75821f4735e2c96114e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73018c04ec1ec48cf1a20cfa43967388 = $(`<div id="html_73018c04ec1ec48cf1a20cfa43967388" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Myrtleford<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.05, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 13.07, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_a7446879f474a75821f4735e2c96114e.setContent(html_73018c04ec1ec48cf1a20cfa43967388);
+            
+        
+
+        marker_9d0cbcf7647864354c438464a60aa1c7.bindPopup(popup_a7446879f474a75821f4735e2c96114e)
+        ;
+
+        
+    
+    
+            marker_9d0cbcf7647864354c438464a60aa1c7.bindTooltip(
+                `<div>
+                     Myrtleford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_738e7a2390d89799ccab12fe84892207 = L.marker(
+                [143.5341, -35.34331],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_c65f0ce1fe50fab9bcb083eb10810ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b06b3ae79365c58e5e9c886ff419366b = $(`<div id="html_b06b3ae79365c58e5e9c886ff419366b" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Swan Hill<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.22, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 2.13, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_c65f0ce1fe50fab9bcb083eb10810ae0.setContent(html_b06b3ae79365c58e5e9c886ff419366b);
+            
+        
+
+        marker_738e7a2390d89799ccab12fe84892207.bindPopup(popup_c65f0ce1fe50fab9bcb083eb10810ae0)
+        ;
+
+        
+    
+    
+            marker_738e7a2390d89799ccab12fe84892207.bindTooltip(
+                `<div>
+                     Swan Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e98b2d92689ee864ff9527d195abde3f = L.marker(
+                [145.0576, -37.722477],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_7c4bcf1f06d4622f93923dbc2b403823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a21f90eb41cf3ec03e2cbed38a6d64f = $(`<div id="html_7a21f90eb41cf3ec03e2cbed38a6d64f" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Macleod<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.91, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.04, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_7c4bcf1f06d4622f93923dbc2b403823.setContent(html_7a21f90eb41cf3ec03e2cbed38a6d64f);
+            
+        
+
+        marker_e98b2d92689ee864ff9527d195abde3f.bindPopup(popup_7c4bcf1f06d4622f93923dbc2b403823)
+        ;
+
+        
+    
+    
+            marker_e98b2d92689ee864ff9527d195abde3f.bindTooltip(
+                `<div>
+                     Macleod
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cec5652e8b57c2c5a681cecc742310e = L.marker(
+                [141.6071, -38.3525276],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_181b8e26e9761d6e2523613b7b20d204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_363c9b471250f29c2dfc805cdb691504 = $(`<div id="html_363c9b471250f29c2dfc805cdb691504" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Portland<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 11.75, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 10.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_181b8e26e9761d6e2523613b7b20d204.setContent(html_363c9b471250f29c2dfc805cdb691504);
+            
+        
+
+        marker_6cec5652e8b57c2c5a681cecc742310e.bindPopup(popup_181b8e26e9761d6e2523613b7b20d204)
+        ;
+
+        
+    
+    
+            marker_6cec5652e8b57c2c5a681cecc742310e.bindTooltip(
+                `<div>
+                     Portland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c37cf41acaf8e31a7a15359ca5f2f5a = L.marker(
+                [144.8801, -37.82743],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_b2db4818fd7e96bc321cdd5ca4b8784a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c9dd45ab5ce6091b176e124089ce02 = $(`<div id="html_f0c9dd45ab5ce6091b176e124089ce02" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Spotswood<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 11.58, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.5, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_b2db4818fd7e96bc321cdd5ca4b8784a.setContent(html_f0c9dd45ab5ce6091b176e124089ce02);
+            
+        
+
+        marker_4c37cf41acaf8e31a7a15359ca5f2f5a.bindPopup(popup_b2db4818fd7e96bc321cdd5ca4b8784a)
+        ;
+
+        
+    
+    
+            marker_4c37cf41acaf8e31a7a15359ca5f2f5a.bindTooltip(
+                `<div>
+                     Spotswood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5589ba68b1ea711518d25e9456632aa5 = L.marker(
+                [144.310516, -38.3079338],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_e23e82e5fcefa88445a9906b08a2ebde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fec53c1737e8d22b532ba9a0112cf92d = $(`<div id="html_fec53c1737e8d22b532ba9a0112cf92d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Torquay<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.82, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.82, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_e23e82e5fcefa88445a9906b08a2ebde.setContent(html_fec53c1737e8d22b532ba9a0112cf92d);
+            
+        
+
+        marker_5589ba68b1ea711518d25e9456632aa5.bindPopup(popup_e23e82e5fcefa88445a9906b08a2ebde)
+        ;
+
+        
+    
+    
+            marker_5589ba68b1ea711518d25e9456632aa5.bindTooltip(
+                `<div>
+                     Torquay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51d708df5ff20a9fbf4297a88ca83bbc = L.marker(
+                [142.1616, -34.19561],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_12028b56e0bf2cb8333da091dff3aa04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8fc927bb825332e29f722df9a36c281 = $(`<div id="html_d8fc927bb825332e29f722df9a36c281" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Mildura<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 2.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.05, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.88, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_12028b56e0bf2cb8333da091dff3aa04.setContent(html_d8fc927bb825332e29f722df9a36c281);
+            
+        
+
+        marker_51d708df5ff20a9fbf4297a88ca83bbc.bindPopup(popup_12028b56e0bf2cb8333da091dff3aa04)
+        ;
+
+        
+    
+    
+            marker_51d708df5ff20a9fbf4297a88ca83bbc.bindTooltip(
+                `<div>
+                     Mildura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80591fcbba98eb1f160ae126626ebe76 = L.marker(
+                [144.981232, -37.41652],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_e8bbc1857753e89e64132575fab58b33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_160d282f6bdd6a7e925dfffce5559724 = $(`<div id="html_160d282f6bdd6a7e925dfffce5559724" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Wallan<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.75, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.99, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_e8bbc1857753e89e64132575fab58b33.setContent(html_160d282f6bdd6a7e925dfffce5559724);
+            
+        
+
+        marker_80591fcbba98eb1f160ae126626ebe76.bindPopup(popup_e8bbc1857753e89e64132575fab58b33)
+        ;
+
+        
+    
+    
+            marker_80591fcbba98eb1f160ae126626ebe76.bindTooltip(
+                `<div>
+                     Wallan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2efac83316a6163c4fb2ce1acaa4fe2c = L.marker(
+                [145.578491, -38.5871048],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_3ab1bf8a48231e377468370085ee96bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e1c9bcfafae3b21f1d9a316e4665bb5 = $(`<div id="html_4e1c9bcfafae3b21f1d9a316e4665bb5" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Wonthaggi<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.45, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_3ab1bf8a48231e377468370085ee96bd.setContent(html_4e1c9bcfafae3b21f1d9a316e4665bb5);
+            
+        
+
+        marker_2efac83316a6163c4fb2ce1acaa4fe2c.bindPopup(popup_3ab1bf8a48231e377468370085ee96bd)
+        ;
+
+        
+    
+    
+            marker_2efac83316a6163c4fb2ce1acaa4fe2c.bindTooltip(
+                `<div>
+                     Wonthaggi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e63b22f12c5734385bb58abdbf07731 = L.marker(
+                [143.534088, -35.34314],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_03527d205d8f4404d62fa20a20d5f273 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e058c064f3eb5f8b5ac2f8e498e4f4de = $(`<div id="html_e058c064f3eb5f8b5ac2f8e498e4f4de" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Swan Hill<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.15, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.92, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_03527d205d8f4404d62fa20a20d5f273.setContent(html_e058c064f3eb5f8b5ac2f8e498e4f4de);
+            
+        
+
+        marker_5e63b22f12c5734385bb58abdbf07731.bindPopup(popup_03527d205d8f4404d62fa20a20d5f273)
+        ;
+
+        
+    
+    
+            marker_5e63b22f12c5734385bb58abdbf07731.bindTooltip(
+                `<div>
+                     Swan Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7157b4666641869aac01f256d20dd2c1 = L.marker(
+                [144.8741, -37.81191],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_fddf6e20f88ddaf78ca521f4140f59a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bd5098e6fee207b9f030b3bfc817aed = $(`<div id="html_3bd5098e6fee207b9f030b3bfc817aed" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Kingsville<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 26.53, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 15.9, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.95, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_fddf6e20f88ddaf78ca521f4140f59a0.setContent(html_3bd5098e6fee207b9f030b3bfc817aed);
+            
+        
+
+        marker_7157b4666641869aac01f256d20dd2c1.bindPopup(popup_fddf6e20f88ddaf78ca521f4140f59a0)
+        ;
+
+        
+    
+    
+            marker_7157b4666641869aac01f256d20dd2c1.bindTooltip(
+                `<div>
+                     Kingsville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14a325f833eef276b3fc24fe00d3b49f = L.marker(
+                [145.373459, -37.65686],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_65ef0dc43c1d8e98cc3838d7ce72ad73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a7c5612501feeebaa7af73c5331574 = $(`<div id="html_42a7c5612501feeebaa7af73c5331574" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Yarra Glen<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 11.68, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_65ef0dc43c1d8e98cc3838d7ce72ad73.setContent(html_42a7c5612501feeebaa7af73c5331574);
+            
+        
+
+        marker_14a325f833eef276b3fc24fe00d3b49f.bindPopup(popup_65ef0dc43c1d8e98cc3838d7ce72ad73)
+        ;
+
+        
+    
+    
+            marker_14a325f833eef276b3fc24fe00d3b49f.bindTooltip(
+                `<div>
+                     Yarra Glen
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4533d9195388b62dbed888d9312c20aa = L.marker(
+                [146.6933, -38.17107],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_d2068bdf0ee04df8eb195d6ac6e076b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d92c0f693c31bc6b074e1e243143b69a = $(`<div id="html_d92c0f693c31bc6b074e1e243143b69a" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Flynn<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.86, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_d2068bdf0ee04df8eb195d6ac6e076b2.setContent(html_d92c0f693c31bc6b074e1e243143b69a);
+            
+        
+
+        marker_4533d9195388b62dbed888d9312c20aa.bindPopup(popup_d2068bdf0ee04df8eb195d6ac6e076b2)
+        ;
+
+        
+    
+    
+            marker_4533d9195388b62dbed888d9312c20aa.bindTooltip(
+                `<div>
+                     Flynn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd7d3b116397ac0e621cae39cc2f4c6f = L.marker(
+                [146.7858, -38.15044],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6e9f16cd1a71c1f24911b581a02b6da3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfd483b8de7f581b9a0752bed522b935 = $(`<div id="html_cfd483b8de7f581b9a0752bed522b935" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Rosedale<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.93, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.23, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_6e9f16cd1a71c1f24911b581a02b6da3.setContent(html_cfd483b8de7f581b9a0752bed522b935);
+            
+        
+
+        marker_dd7d3b116397ac0e621cae39cc2f4c6f.bindPopup(popup_6e9f16cd1a71c1f24911b581a02b6da3)
+        ;
+
+        
+    
+    
+            marker_dd7d3b116397ac0e621cae39cc2f4c6f.bindTooltip(
+                `<div>
+                     Rosedale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dc1b18daba1c762f75829f36f3c3171 = L.marker(
+                [144.719727, -37.58954],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_92bf41e98d60d3c16cb482c975dcc8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_425f4274c66a4d334527528b5d07b69d = $(`<div id="html_425f4274c66a4d334527528b5d07b69d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Sunbury<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.83, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.08, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_92bf41e98d60d3c16cb482c975dcc8da.setContent(html_425f4274c66a4d334527528b5d07b69d);
+            
+        
+
+        marker_1dc1b18daba1c762f75829f36f3c3171.bindPopup(popup_92bf41e98d60d3c16cb482c975dcc8da)
+        ;
+
+        
+    
+    
+            marker_1dc1b18daba1c762f75829f36f3c3171.bindTooltip(
+                `<div>
+                     Sunbury
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df42ea392af4694ce3fbedec91f6dead = L.marker(
+                [146.5691, -38.12751],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_2dae62eb14f45d9c6cdd0b760a56c91a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ac238e9774d5901a525c4a467ba35f3 = $(`<div id="html_5ac238e9774d5901a525c4a467ba35f3" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Glengarry<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.65, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.5, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_2dae62eb14f45d9c6cdd0b760a56c91a.setContent(html_5ac238e9774d5901a525c4a467ba35f3);
+            
+        
+
+        marker_df42ea392af4694ce3fbedec91f6dead.bindPopup(popup_2dae62eb14f45d9c6cdd0b760a56c91a)
+        ;
+
+        
+    
+    
+            marker_df42ea392af4694ce3fbedec91f6dead.bindTooltip(
+                `<div>
+                     Glengarry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37db98db0041cecbcaeacaef443b6e5d = L.marker(
+                [148.006744, -37.8716469],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_aa08f79f3a7c676e837d9349d477cf72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf5d3115db566a60d6a14d6ed89c97a6 = $(`<div id="html_cf5d3115db566a60d6a14d6ed89c97a6" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Lakes Entrance<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.15, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.7, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_aa08f79f3a7c676e837d9349d477cf72.setContent(html_cf5d3115db566a60d6a14d6ed89c97a6);
+            
+        
+
+        marker_37db98db0041cecbcaeacaef443b6e5d.bindPopup(popup_aa08f79f3a7c676e837d9349d477cf72)
+        ;
+
+        
+    
+    
+            marker_37db98db0041cecbcaeacaef443b6e5d.bindTooltip(
+                `<div>
+                     Lakes Entrance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45f1fbe89c14ddb0a79751b06afc06b9 = L.marker(
+                [144.5669, -37.7064552],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_5edee84e08e8c59b1313421a31998a1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d5eb81cd13072dcbffefc3720b3b9e9 = $(`<div id="html_3d5eb81cd13072dcbffefc3720b3b9e9" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Melton<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.11, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 3.67, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 23, 'unit': 'ppb', 'totalSample': 13}]</div>`)[0];
+                popup_5edee84e08e8c59b1313421a31998a1c.setContent(html_3d5eb81cd13072dcbffefc3720b3b9e9);
+            
+        
+
+        marker_45f1fbe89c14ddb0a79751b06afc06b9.bindPopup(popup_5edee84e08e8c59b1313421a31998a1c)
+        ;
+
+        
+    
+    
+            marker_45f1fbe89c14ddb0a79751b06afc06b9.bindTooltip(
+                `<div>
+                     Melton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a29e77be4eed7bf9752214dd1f32d7f4 = L.marker(
+                [145.956421, -38.4689522],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_e696317eebbeaedf762078eadecd33a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_703d16f1f933a938e38613cab9c7c140 = $(`<div id="html_703d16f1f933a938e38613cab9c7c140" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Leongatha<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.58, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.95, 'unit': '&micro;g/m&sup3;', 'totalSample': 264}]</div>`)[0];
+                popup_e696317eebbeaedf762078eadecd33a8.setContent(html_703d16f1f933a938e38613cab9c7c140);
+            
+        
+
+        marker_a29e77be4eed7bf9752214dd1f32d7f4.bindPopup(popup_e696317eebbeaedf762078eadecd33a8)
+        ;
+
+        
+    
+    
+            marker_a29e77be4eed7bf9752214dd1f32d7f4.bindTooltip(
+                `<div>
+                     Leongatha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0514c69cedc283523e8ab7a1b536274a = L.marker(
+                [145.3284, -37.77512],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_ad4023ca9510f5f0ef983e6683e6fd8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7078e4d1b872e9b7f0316e13bdff81fe = $(`<div id="html_7078e4d1b872e9b7f0316e13bdff81fe" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Mooroolbark<br><b>Parameters:</b> [{'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.46, 'unit': 'none', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.52, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}, {'name': 'O3', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': 'Unknown unit', 'totalSample': 0}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.8, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}]</div>`)[0];
+                popup_ad4023ca9510f5f0ef983e6683e6fd8a.setContent(html_7078e4d1b872e9b7f0316e13bdff81fe);
+            
+        
+
+        marker_0514c69cedc283523e8ab7a1b536274a.bindPopup(popup_ad4023ca9510f5f0ef983e6683e6fd8a)
+        ;
+
+        
+    
+    
+            marker_0514c69cedc283523e8ab7a1b536274a.bindTooltip(
+                `<div>
+                     Mooroolbark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd4a0821d11b99aab2530b1d55cb669d = L.marker(
+                [144.4354, -37.674633],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_d01b75e302c433cb1d5940722b959b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daa008b731545c852ce57b32750894a8 = $(`<div id="html_daa008b731545c852ce57b32750894a8" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Bacchus Marsh<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 7.05, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 8.24, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_d01b75e302c433cb1d5940722b959b3b.setContent(html_daa008b731545c852ce57b32750894a8);
+            
+        
+
+        marker_bd4a0821d11b99aab2530b1d55cb669d.bindPopup(popup_d01b75e302c433cb1d5940722b959b3b)
+        ;
+
+        
+    
+    
+            marker_bd4a0821d11b99aab2530b1d55cb669d.bindTooltip(
+                `<div>
+                     Bacchus Marsh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9f88d13418538aa065c96d06b9dcf5e = L.marker(
+                [144.8471, -37.8220978],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_b215edb4d23454740efd6e78ac93d2e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278ab1cbd6dce41c0f0fae6ee9ef465d = $(`<div id="html_278ab1cbd6dce41c0f0fae6ee9ef465d" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Brooklyn<br><b>Parameters:</b> [{'name': 'API', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.9, 'unit': 'none', 'totalSample': 13}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 13.68, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 12.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 9.02, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'Visibility', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 70, 'unit': 'km', 'totalSample': 13}]</div>`)[0];
+                popup_b215edb4d23454740efd6e78ac93d2e2.setContent(html_278ab1cbd6dce41c0f0fae6ee9ef465d);
+            
+        
+
+        marker_a9f88d13418538aa065c96d06b9dcf5e.bindPopup(popup_b215edb4d23454740efd6e78ac93d2e2)
+        ;
+
+        
+    
+    
+            marker_a9f88d13418538aa065c96d06b9dcf5e.bindTooltip(
+                `<div>
+                     Brooklyn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee29b2343464bc04aeff10e240acedc4 = L.marker(
+                [145.688278, -37.75449],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_35618d1167cde9c512bfdedc7e5b8bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d099c04af1a910a9b5c350c00373067c = $(`<div id="html_d099c04af1a910a9b5c350c00373067c" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Warburton<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.2, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 4.99, 'unit': '&micro;g/m&sup3;', 'totalSample': 288}]</div>`)[0];
+                popup_35618d1167cde9c512bfdedc7e5b8bd7.setContent(html_d099c04af1a910a9b5c350c00373067c);
+            
+        
+
+        marker_ee29b2343464bc04aeff10e240acedc4.bindPopup(popup_35618d1167cde9c512bfdedc7e5b8bd7)
+        ;
+
+        
+    
+    
+            marker_ee29b2343464bc04aeff10e240acedc4.bindTooltip(
+                `<div>
+                     Warburton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fc4a3952844e4ee046fd7fbfe9092c4 = L.marker(
+                [144.8778, -37.80266],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_6bfbe05b82782d6a9a9f542957b68039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf2b306b67b5f442a8e1587d247aeee = $(`<div id="html_adf2b306b67b5f442a8e1587d247aeee" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Footscray<br><b>Parameters:</b> [{'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 21.88, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 14.64, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 14.64, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.33, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_6bfbe05b82782d6a9a9f542957b68039.setContent(html_adf2b306b67b5f442a8e1587d247aeee);
+            
+        
+
+        marker_6fc4a3952844e4ee046fd7fbfe9092c4.bindPopup(popup_6bfbe05b82782d6a9a9f542957b68039)
+        ;
+
+        
+    
+    
+            marker_6fc4a3952844e4ee046fd7fbfe9092c4.bindTooltip(
+                `<div>
+                     Footscray
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bcf5b68e5b719b0ca7ecc6070dee624 = L.marker(
+                [146.9169, -36.70419],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_2b16b2a4b98ca6fb9ba89f20539cf6cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24fc637bf8762ce6d851432430a77237 = $(`<div id="html_24fc637bf8762ce6d851432430a77237" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Porepunkah<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 2.84, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}, {'name': 'PM10', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.8, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}]</div>`)[0];
+                popup_2b16b2a4b98ca6fb9ba89f20539cf6cf.setContent(html_24fc637bf8762ce6d851432430a77237);
+            
+        
+
+        marker_2bcf5b68e5b719b0ca7ecc6070dee624.bindPopup(popup_2b16b2a4b98ca6fb9ba89f20539cf6cf)
+        ;
+
+        
+    
+    
+            marker_2bcf5b68e5b719b0ca7ecc6070dee624.bindTooltip(
+                `<div>
+                     Porepunkah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d061ede07f27d2febbf6183b9045306 = L.marker(
+                [144.550659, -38.1913528],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_9b8e9db23d6cb74f995ca3b54cd163e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7d0a295a1ed40a87210844dc89d3f7 = $(`<div id="html_ab7d0a295a1ed40a87210844dc89d3f7" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Drysdale<br><b>Parameters:</b> [{'name': 'Particles', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 5.53, 'unit': '&micro;g/m&sup3;', 'totalSample': 12}, {'name': 'Particles', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 6.6, 'unit': '&micro;g/m&sup3;', 'totalSample': 276}]</div>`)[0];
+                popup_9b8e9db23d6cb74f995ca3b54cd163e3.setContent(html_ab7d0a295a1ed40a87210844dc89d3f7);
+            
+        
+
+        marker_5d061ede07f27d2febbf6183b9045306.bindPopup(popup_9b8e9db23d6cb74f995ca3b54cd163e3)
+        ;
+
+        
+    
+    
+            marker_5d061ede07f27d2febbf6183b9045306.bindTooltip(
+                `<div>
+                     Drysdale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1c85777fd0af6baed4d103942306b78 = L.marker(
+                [144.300064, -36.77841],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_7e76f4e37ac63a671c4ab168f2c7c167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd5b222927dab8bec8f0eb3f1bc9f3fd = $(`<div id="html_cd5b222927dab8bec8f0eb3f1bc9f3fd" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Bendigo<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.04, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.41, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_7e76f4e37ac63a671c4ab168f2c7c167.setContent(html_cd5b222927dab8bec8f0eb3f1bc9f3fd);
+            
+        
+
+        marker_a1c85777fd0af6baed4d103942306b78.bindPopup(popup_7e76f4e37ac63a671c4ab168f2c7c167)
+        ;
+
+        
+    
+    
+            marker_a1c85777fd0af6baed4d103942306b78.bindTooltip(
+                `<div>
+                     Bendigo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c4c1c47556d08262ae9950ddf503ec8 = L.marker(
+                [146.7842, -38.15588],
+                {}
+            ).addTo(map_553015c54d7c961cb50370e895bc7703);
+        
+    
+        var popup_20232be0f777b2e580793ada3d45b6dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d29d46d23e97ba5ad01231b7c85b99f8 = $(`<div id="html_d29d46d23e97ba5ad01231b7c85b99f8" style="width: 100.0%; height: 100.0%;"><b>Site Name:</b> Rosedale<br><b>Parameters:</b> [{'name': 'PM2.5', 'timeSeriesName': '1HR_AV', 'startDateTime': '2024-05-12T04:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 1.01, 'unit': '&micro;g/m&sup3;', 'totalSample': 13}, {'name': 'PM2.5', 'timeSeriesName': '24HR_AV', 'startDateTime': '2024-05-11T05:00:00Z', 'untilDateTime': '2024-05-12T05:00:00Z', 'averageValue': 0.94, 'unit': '&micro;g/m&sup3;', 'totalSample': 312}]</div>`)[0];
+                popup_20232be0f777b2e580793ada3d45b6dd.setContent(html_d29d46d23e97ba5ad01231b7c85b99f8);
+            
+        
+
+        marker_7c4c1c47556d08262ae9950ddf503ec8.bindPopup(popup_20232be0f777b2e580793ada3d45b6dd)
+        ;
+
+        
+    
+    
+            marker_7c4c1c47556d08262ae9950ddf503ec8.bindTooltip(
+                `<div>
+                     Rosedale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
