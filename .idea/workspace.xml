@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c4e2f89-11a5-48cf-98c3-badf232d7a6f" name="Changes" comment="updated the extract fucntion">
-      <change beforePath="$PROJECT_DIR$/Frontend.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fission/function/data-extract-all.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fission/function/data-extract.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fission/function/test.zip" beforeDir="false" />
+    <list default="true" id="4c4e2f89-11a5-48cf-98c3-badf232d7a6f" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/frontend/scenario3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fission/function/data-extract/data-extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/fission/function/data-extract/data-extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fission/function/data-extract/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fission/function/data-extract/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fission/function/route-test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/scenario2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/scenario2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario2.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +24,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nelson23bb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d288500a-bab0-4fdf-8f50-1bdf197421dc" />
+        <option name="url" value="https://github.com/Lucasbeast/COMP90024-SM1-Project.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/elastic.env" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/elastic/loadSensor.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,10 +65,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/takashimi/Desktop/cluster_cloud/COMP90024-SM1-Project&quot;
+    &quot;git-widget-placeholder&quot;: &quot;new&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/takashimi/Desktop/cluster_cloud/COMP90024-SM1-Project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fission/function/route-test" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the extract fucntion" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the extract fucntion" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
 </project>
