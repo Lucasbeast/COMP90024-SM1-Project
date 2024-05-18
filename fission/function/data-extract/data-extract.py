@@ -1,13 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import request, jsonify
 from elasticsearch8 import Elasticsearch
-
-app = Flask(__name__)
 
 
 # this function build connection with db
 def query_es(body, index_name):
     client = Elasticsearch(
-        'https://localhost:9200',
+        'https://elasticsearch-master.elastic.svc.cluster.local:9200',
         basic_auth=("elastic", "elastic"),
         verify_certs=False,
         ssl_show_warn=False
@@ -16,7 +14,6 @@ def query_es(body, index_name):
     return response['hits']['hits']
 
 
-@app.route('/query-es', methods=['GET'])
 def main():
     data = request.get_json(silent=True)
     if not data:
