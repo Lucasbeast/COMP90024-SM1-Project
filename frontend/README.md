@@ -21,9 +21,10 @@ To get started, you need to install the required dependencies. Follow these step
    cd <your-repository-directory>
 
 2. **Create a virtual environment (optional, but recommended):**
-   ```python -m venv env
-      source env/bin/activate # For macOS and Linux  
-      .\env\Scripts\activate  # For Windows
+   ```
+   python -m venv env
+   source env/bin/activate # For macOS and Linux  
+   .\env\Scripts\activate  # For Windows
    ```
 
 3. **Install required packages:**
@@ -63,19 +64,6 @@ This project uses Jupyter Notebook for data analysis and visualization, with emb
       - Run the code cells to start the second Dash application.
       - After starting the second Dash server, the second application can be accessed at [http://127.0.0.1:8052](http://127.0.0.1:8052).
       - An embedded IFrame will display the second Dash application within the notebook.
-
-## Project Structure
-
-Ensure your project has the following structure:
-frontend/
-├── .ipynb_checkpoints/
-├── image/
-├── README.md
-├── requirements.txt
-├── scenario1.ipynb
-├── scenario2.ipynb
-├── scenario3.ipynb
-
 
 ## Data
 
