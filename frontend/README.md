@@ -92,11 +92,4 @@ Refer to `scenario2.ipynb` for detailed analysis and visualization, including tw
 
 Refer to `scenario3.ipynb` for detailed analysis and visualization.
 
-## Contributing
-
-Contributions are welcome! Please submit pull requests or report issues.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
