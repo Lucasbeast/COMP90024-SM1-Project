@@ -19,7 +19,7 @@ def main():
         raise ValueError("Missing Elasticsearch credentials in environment variables")
 
     # Load local JSON data
-    with open('output_word.json', 'r', encoding='utf-8') as file:
+    with open('twitter_word.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
     
     filtered_rows = data["filtered_rows"]
