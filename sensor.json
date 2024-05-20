@@ -1,9 +1,0 @@
-{
-  "body": {
-    "size": 5,
-    "query": {
-      "match_all": {}
-    }
-  },
-  "index": "sensor"
-}
