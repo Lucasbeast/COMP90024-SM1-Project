@@ -37,21 +37,20 @@ This project contains scripts for setting up and managing various Elasticsearch 
 
 To get started, you need to install the required dependencies. Follow these steps:
 
-
 1. **Clone the repository:**
-  ```sh
+   ```sh
    git clone <your-repository-url>
    cd <your-repository-directory>
 
 2. **Create a virtual environment (optional, but recommended):**
-  ```
+   ```
    python -m venv env
    source env/bin/activate # For macOS and Linux  
    .\env\Scripts\activate  # For Windows
    ```
 
 3. **Install required packages:**
-   pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Scripts
 

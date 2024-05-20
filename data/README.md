@@ -26,18 +26,5 @@ The `twitter` directory contains a compressed file, `twitter.zip`, which include
 
 These files are extracted from a 120GB Twitter dataset used in the SPARTAN project, focusing on sentiment data and word analysis.
 
-## File Structure
-
-.
-|- pollen
-||- campbelltown_nsw.json
-||-  canberra_act.json
-||- parkville_vic.json
-||-  rocklea_qld.json
-|- sensor
-||- meshed-sensor-type.json
-|-  twitter
-||- twitter.zip
-
 
 Each directory contains valuable data for different types of analysis, from environmental monitoring to social media sentiment analysis.
