@@ -5,7 +5,7 @@ USERNAME=$(cat /etc/myapp/configs/default/shared-data/ES_USERNAME)
 PASSWORD=$(cat /etc/myapp/configs/default/shared-data/ES_PASSWORD)
 
 # Execute the curl command using the credentials
-curl -X PUT -k 'https://127.0.0.1:9200/bom' \
+curl -X PUT -k 'https://127.0.0.1:9200/bom-000001' \
      --header 'Content-Type: application/json' \
      --data '{
        "settings": {

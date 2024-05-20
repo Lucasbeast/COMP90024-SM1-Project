@@ -55,7 +55,7 @@ curl -X PUT "https://127.0.0.1:9200/_template/bom_template" -u "$USERNAME:$PASSW
     "number_of_shards": 3,
     "number_of_replicas": 1,
     "index.lifecycle.name": "bom_policy",
-    "index.lifecycle.rollover_alias": "bom"
+    "index.lifecycle.rollover_alias": "bom-alias"
   }
 }
 '
@@ -67,7 +67,7 @@ curl -X POST "https://127.0.0.1:9200/_aliases" -u "$USERNAME:$PASSWORD" -k \
   "actions": [
     {
       "add": {
-        "index": "bom",
+        "index": "bom-000001",
         "alias": "bom-alias",
         "is_write_index": true
       }
