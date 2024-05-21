@@ -56,7 +56,7 @@ This project uses Jupyter Notebook for data analysis and visualization, with emb
       - Run the code cells to start the Dash application.
       - After starting the Dash server, the application can be accessed at [http://127.0.0.1:8050](http://127.0.0.1:8050).
       - An embedded IFrame will display the Dash application within the notebook.
-
+        ![Scenario 1 Dash Application](scenario1_dash_app_image.png)    
     - **For `scenario2.ipynb`:**
       - Run the code cells to start the first Dash application.
       - After starting the Dash server, the first application can be accessed at [http://127.0.0.1:8051](http://127.0.0.1:8051).
@@ -64,6 +64,8 @@ This project uses Jupyter Notebook for data analysis and visualization, with emb
       - Run the code cells to start the second Dash application.
       - After starting the second Dash server, the second application can be accessed at [http://127.0.0.1:8052](http://127.0.0.1:8052).
       - An embedded IFrame will display the second Dash application within the notebook.
+        ![Scenario 2 Dash Application 1](scenario2_dash_app1_image.png)
+        ![Scenario 2 Dash Application 2](scenario2_dash_app2_image.png)
 
 ## Data
 
