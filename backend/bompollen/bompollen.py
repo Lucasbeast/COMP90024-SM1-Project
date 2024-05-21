@@ -146,6 +146,8 @@ def main():
         url = "https://reg.bom.gov.au/fwo/IDV60901/IDV60901.95936.json"
     elif name == "rocklea":
         url = "https://reg.bom.gov.au/fwo/IDQ60901/IDQ60901.94576.json"
+    else:
+        return json.dumps({"error":"No data for the given City"})
     predictions = prediction(url,name)
     return predictions
 
